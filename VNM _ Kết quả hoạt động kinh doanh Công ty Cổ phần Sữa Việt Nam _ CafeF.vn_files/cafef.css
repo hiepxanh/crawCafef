@@ -1,0 +1,4763 @@
+﻿sbody {
+}
+.headerDiv1{overflow:hidden;padding-top:10px;padding-left:10px;background-color:White;height:50px}
+.headerDiv2{width:900px;float:left;overflow:hidden}
+.floatLeft{float:left}
+.headerDiv4{float:left;width:20px}
+.headerDiv5{overflow:hidden;float:left}
+.headerDiv6{float:left;padding-left:10px}
+.footerInformDiv{float:left;height:100px;border-left: 1px dashed rgb(51, 51, 51); padding-left: 5px; font-size: 11px;text-align:left;padding-right:5px;font-family:Arial;font-style:normal;color:#666666}
+.footerInformDivBold{font-size:11px;text-align:left;font-family:Arial;font-style:normal;color:#666666;font-weight:bold}
+.footerInformDivBoldRed{font-size:11px;text-align:left;font-family:Arial;font-style:normal;color:#cc0000;font-weight:bold}
+.footerDiv1{overflow:hidden;width:980px;background-color:#ebebeb}
+.footerDiv2{overflow:hidden}
+.footerDiv3{float:left;width:966px;height:9px}
+.footerDiv4{border-top:solid 1px #dadada;border-bottom:solid 1px #dadada;overflow:hidden;text-align:center}
+.footerDiv5{overflow:hidden;padding:10px}
+.footerDiv6{float:left;padding-left:220px}
+.footerDiv7{float:left;padding-left:20px;}
+.footerDiv8{overflow:hidden;}
+.footerDiv9{float:left;width:966px;height:9px}
+.footerDiv10{overflow:hidden;width:964px;padding-top:10px}
+.menuPadding{padding:5px;padding-top:7px}
+.borderMenu{overflow:hidden;float:left;border-right:solid 1px #dadada}
+.heightMenu{float:left;height:30px}
+.fontMenuWhite{font-family:Verdana;font-weight:bold;color:white;text-decoration:none;font-size:11px}
+.fontMenuBlue{font-family:Verdana;font-weight:bold;color:#003466;text-decoration:none;font-size:11px}
+.fontMenuBlue:hover{font-family:Verdana;font-weight:bold;color:#cb0003;text-decoration:none;font-size:11px}
+.liveBoard{color:#cc0000;font-family:Verdana;font-size:12px;font-weight:bold;text-decoration:none}
+.fontBeta{font-size: 9px; color: #aaaaaa; vertical-align:super}
+.fontSubMenu{color:#666666;font-family:Verdana;text-decoration:none;font-weight:bold;font-size:11px}
+.fontSubMenuActive{color:#cc0001;font-family:Verdana;text-decoration:none;font-weight:bold;font-size:11px}
+.fontSubMenu:hover{color:#cc0001;font-family:Verdana;text-decoration:none;font-weight:bold;font-size:11px}
+.dangky{font-family:Verdana;font-weight:bold;color:#000072;text-decoration:none;font-size:11px}
+.dangky:hover{font-family:Verdana;font-weight:bold;color:#cb0003;text-decoration:none;font-size:11px}
+.divSubMenu{height:25px;background-color:#f2f3f7;padding-top:5px;padding-left:10px;overflow:hidden}
+.linkFooter{font-family:Verdana;font-weight:bold;color:#000072;text-decoration:none;font-size:11px}
+.titleHotNew{color:#004370;font-weight:bold;padding:0px 0px 0px 0px;font-family:Arial;font-weight:bold;font-size:13px;text-decoration:none}
+.titleHotNew:hover{color:#cc0001;font-weight:bold;padding:0px 0px 0px 0px;font-family:Arial;font-weight:bold;font-size:13px;text-decoration:none}
+.initialContentHot{font-family:Arial;color:#333333;text-decoration:none;font-size:12px;padding:0px 0px 0px 0px;text-align:justify}
+.xeptiepHot{font-family:Arial;color:#cfcfcf;text-decoration:none;font-size:11px;word-spacing:2px}
+.xeptiepHot:hover{font-family:Arial;color:#cc0001;text-decoration:none;font-size:11px;word-spacing:2px}
+.HotTitle1{font-family:Arial;font-weight:bold;color:#003366;text-decoration:none;font-size:16px;}
+.HotTitle1:hover{font-family:Arial;font-weight:bold;color:#003366;text-decoration:none;font-size:16px;}
+.hotNew1{overflow:hidden;background-color:white;width:620px;height:37px;border-bottom:solid 1px #dadada}
+.hotNew2{float:left;width:612px;font-family:Arial;color:#bdbdac;text-decoration:none;font-size:11px;word-spacing:2px}
+.hotNew3{overflow:hidden;width:620px;background-image:url('http://cafef3.vcmedia.vn/images/images/bgHot.gif')}
+.hotNew5{float:left;overflow:hidden;width:318px;background-color:White;border-left:solid 2px #f0f0f0}
+.hotNew6{padding-top:10px;padding-left:15px;padding-right:5px}
+.hotNew7{overflow:hidden;width:620px;background-color:White;height:7px}
+.hotNew8{float:left;width:290px;}
+.hotNew9{float:left;width:311px;background-color:White}
+.hotNew4{float:left;overflow:hidden;width:296px;}
+.hotNew10{padding-top:10px;padding-left:5px;text-align:left}
+
+.homeCategoryName{font-family:Tahoma,Arial;font-size: 12px;color:#7A7A7A;text-align: left;font-weight: bold;text-decoration:none;font-style:normal;text-align:left}
+.homeCategoryName:hover{font-family:Tahoma,Arial;font-size: 12px;color:#cc0001;text-align: left;font-weight: bold;text-decoration:none;font-style:normal;text-align:left}
+
+.titleHomeCategory{font-family:Tahoma, Arial;font-size: 12px;color:#004370;text-align: left;font-weight: bold;text-decoration:none;font-style:normal}
+.titleHomeCategory:hover{font-family:Tahoma, Arial;font-size: 12px;color:#cc0001;text-align: left;font-weight: bold;text-decoration:none;font-style:normal}
+
+.titleHomeHot3{font-family:Tahoma, Arial;font-size: 12px;color:#004370;text-align: left;text-decoration:none;font-style:normal; line-height:15px}
+.titleHomeHot3:hover{font-family:Tahoma, Arial;font-size: 12px;color:#cc0001;text-align: left;text-decoration:none;font-style:normal; line-height:15px}
+
+.otherNewCategoryHome{font-family: Arial;font-size: 12px;color:#004370;text-align: left;text-decoration:none;font-style:normal}
+.otherNewCategoryHome:hover{font-family: Arial;font-size: 12px;color:#cc0001;text-align: left;text-decoration:none;font-style:normal}
+.initialCategory{font-family:Arial;color:#333333;text-decoration:none;font-size:12px;font-style:normal;text-align:justify}
+.CatSumaryDiv1{overflow:hidden;background-color:White;}
+
+.CatSumaryDiv2{height:20px;border-bottom:solid 1px #dadada;}
+
+.CatSumaryDiv3{overflow:hidden;padding-top:8px;padding-bottom:10px;width:100%}
+
+.CatSumaryDiv4{float:left;padding-top:5px}
+
+.CatSumaryDiv5{float:left;padding-left:5px}
+
+.CatSumaryDiv6{float:left;width:138px;}
+
+.CatSumaryDiv7{float:left;padding-left:5px;width:225px;}
+
+.CatSumaryDiv8{border-bottom:dotted 1px gray;padding-bottom:6px;padding-top:5px}
+
+.giavang_title{font-family: Arial;font-size: 16px;font-weight: bold;text-transform: uppercase;padding-left:10px}
+.ykien{font-family:Verdana;font-size:13px;font-weight:bold;text-transform:uppercase;padding-left:10px;padding-bottom:5px}
+.giavang_date{font-family: Arial;font-size: 12px;color: #333333;}
+
+.giavang_tenvang{color: #333333;font-family: Arial;font-size: 12px;font-weight: bold;text-align:left;padding-left:5px;float:left}
+.giavang_text{color: #343434;font-family: Arial;font-size: 12px;float:left}
+.giavang_item{height: 24px;}
+.giavant_item_alternale{height: 24px;background-color: #FFF9E1;}
+.giavang_gridstyle{border-top: solid 1px #cccccc;}
+.giavang_padding{padding-left: 15px;}
+.giavang_ghichu{color: #cc0001;font-family: Arial;font-size: 12px;font-weight: bold;}
+.giavang_donvi{font-family: Arial;font-size:11px;color:#919191;padding-right:10px}
+.Comment_Text{font-family: Arial;font-size: 11px;color: #919191;font-style: italic;}
+.NumericItem{color: #343434;font-family: Arial;font-size: 12px;text-align:right;padding-left:5px;height: 20px;float:left;width:55px}
+.cf_SymbolItem{color:#333333;font-family: Arial;font-size: 12px;font-weight: bold;	padding-left:5px;height: 20px;float:left;width:35px}
+.NewCommentName{font-family:Arial;font-size:12px;text-decoration:none;font-weight:bold;color:Black}
+.NewCommentdate{font-family:Arial;font-size:12px;text-decoration:none;color:#004370;font-style:italic}
+.NewCommentContent{font-family:Arial;font-size:12px;text-decoration:none;color:black;font-style:normal}
+.NewCommenttitle{font-family:Arial;font-size:12px;text-decoration:none;color:#004276;font-style:normal}
+.NewCommenttitle:hover{font-family:Arial;font-size:12px;color:#cc0001;}
+.dxncItemHeadernews{color:#004370;line-height:17px;text-align:left;font-family:Arial;font-size:13px;font-weight:bold;text-decoration:none}
+.dxncItemHeadernews:hover{color:#cc0001;line-height:17px;text-align:left;font-family:Arial;font-size:13px;font-weight:bold;text-decoration:none}
+.dxncItemDate_news{font-family:Arial;font-size:10px;color: Gray;white-space: nowrap;}
+.dxncItemContent_news{font: 12px Arial;color: #343434;padding-left:0px;text-decoration:none;text-align:justify	}  
+.dxncItemContentOthernews{font: 12px Arial;color:#004276;padding-left:0px;text-decoration:none	} 
+.dxncItemContentOthernews:hover{font: 12px Arial;color:	 #cc0001;padding-left:0px;text-decoration:none	} 
+.sukien_DOANHNGHIEP_link{font-weight: bold;color: #000000;text-decoration: none;font-size: 16px;font-family: Arial;text-align:left;text-align:left}
+.F_text_listbai {color:#004295;text-decoration: none;font-size:12px;font-weight:normal;padding-left:0px;margin:0px 0px 0px 0px ;text-align:left;font-family:Arial;}
+.F_text_listbai:hover {color:#cc0001;text-decoration: none;font-size:12px;font-weight:normal;padding-left:0px;margin:0px 0px 0px 0px ;text-align:left;font-family:Arial;}
+.dxpButton_Link{font: 8pt Tahoma;color: #394EA2;text-decoration: underline;white-space: nowrap;text-align: center;vertical-align: middle;cursor:pointer;}
+.dxncItemTail_news{
+	font-size: 11px;
+	font-weight: normal;
+	color: #c60000;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more1.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:18px;
+	height:12px;
+}
+.dxncItemTail_news a:hover {
+	font-size: 11px;
+	font-weight: normal;
+	color: #c60000;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:18px;
+	height:12px;
+}
+.ListCateDiv1{background-color:White;width:620px}
+.ListCateDiv2{border-bottom:solid 1px #dadada;padding-bottom:10px;padding-top:10px}
+.ListCateDiv3{float:left;width:600px;text-align:left}
+.ListCateDiv4{border:0;padding-bottom:5px}
+.ListCateDiv5{float:left;}
+.ListCateDiv6{float:left;width:425px}
+.ListCate7{float:left;overflow:hidden;width:550px}
+.lIstCate8{float:left;padding-right:5px;padding-top:5px}
+.ListCate9{overflow:hidden;width:620px}
+.listCate10{padding-bottom:15px;border-bottom:solid 1px #dadada;padding-left:15px}
+.NewComentDiv1{background-color:White;width:240px}
+.NewComentDiv2{overflow:hidden;width:222px;}
+.NewCommentDiv3{border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-bottom:solid 1px #cccccc}
+.NewCommentDiv4{width:220px;border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-top:solid 1px #cccccc;padding-top:10px}
+.NewCommentDiv5{float:left;height:60px;padding-left:5px;}
+.NewCommentDiv6{overflow:hidden;width:193px;}
+.NewCommentDiv7{float:left;padding-left:5px;text-align:left}
+.NewCommentDiv8{overflow:hidden;width:193px}
+.cf_WCBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_TR.gif) 100% 0 no-repeat;}
+.cf_WCBox .cf_BoxHeader div
+{width:4px;height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_TL.gif) 0 0 no-repeat ;float:left}
+.cf_WCBox .cf_BoxContent
+{background:#fff;}
+.cf_WCBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BR.gif) 100% 0 no-repeat;}
+.cf_WCBox .cf_BoxFooter div
+{height:4px;width:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BL.gif) 0 0 no-repeat;float:left}
+/* wire box */
+.cf_WireBox .cf_BoxContent
+{background:#fff;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.cf_WireBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_TR_bg.gif) 100% 0 repeat-x;}
+.cf_WireBox .cf_BoxHeader div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_TL.gif) 0 0 no-repeat;float:left}
+.cf_WireBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BR._bg.gif) 100% 0 no-repeat;}
+.cf_WireBox .cf_BoxFooter div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BL.gif) 0 0 no-repeat;float:left}
+.cf_MBTop
+{border-bottom:1px solid #dfdfdf; padding:0px; margin:0px; position:relative;}
+.cf_MB .cf_MB88x31
+{position:absolute;top:1px;right:5px;}
+.cf_Pad5TB9LR{padding:7px 9px;}
+.NormalText_Bold{font-family:Arial;font-size:11px;color: #000000;font-weight:bold;}
+.timkiem_title2 {font-size: 12px;font-weight: bold;color: #cc0000;text-align: left;vertical-align: middle;border-bottom-width: 1px;border-bottom-style: solid;border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #dadada;
+	border-bottom-color: #dadada;
+	padding-right: 10px;
+	background-color: #f8f8fa;
+}
+.linkTatca{font-family:Arial;font-size:12px;text-decoration:none;color:Black;font-weight:bold}
+.xemtiep1{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:160%; font-weight:none; color:#939393; text-decoration:none; font-size:11px;padding:0px 0px 0px 0px;font-weight:bold}
+.news a {FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:160%; font-weight:normal; color:#000; text-decoration:none; font-size:12px;padding:0px 0px 0px 0px;}
+.news :hover{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:160%; font-weight:normal; color:#c60000; text-decoration:none; font-size:12px;padding:0px 0px 0px 0px;}
+.title{text-decoration: none;FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#333333; text-decoration:0px; font-size:20px;}
+.title01{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#686868; text-decoration:0px; font-size:11px;}
+.mack{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#004370; text-decoration:0px; font-size:11px;text-decoration: none;padding:0px 0px 0px 0px;}
+.macktang{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:bold; color:green; text-decoration:0px; font-size:11px;text-decoration: none;padding:0px 0px 0px 0px;}
+.mack:hover{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#c60000; text-decoration:0px; font-size:11px;text-decoration: none;padding:0px 0px 0px 0px;}
+.madown{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#d10008; text-decoration:0px; font-size:11px;}
+.maup{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#319638; text-decoration:0px; font-size:11px;}
+.nochange{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#FF9900; text-decoration:0px; font-size:11px;}
+.NewsRelation a{font-family:Arial;font-weight:bold;text-decoration:none;color:#004370;font-size:11px}
+.title{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#333333; text-decoration:0px; font-size:20px;}
+.title01{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#686868; text-decoration:0px; font-size:11px;}
+.tinDNDiv1{background-color:White;width:350px}
+.tinDNDiv2{overflow:hidden;padding-top:10px;padding-bottom:10px}
+.tinDNDiv3{border-left:solid 1px #dadada;border-right:solid 1px #dadada;width:330px}
+.tinDNDiv4{border:solid 1px #dadada;width:330px}
+.tinDNDiv5{overflow:hidden;height:22px;}
+.tinDNDiv6{text-align:left;float:left;width:60px}
+.tinDNDiv7{float:left;width:161px;}
+.tinDNDiv8{float:left;width:40px;padding-left:10px}
+.tinDNDiv9{float:left;padding-right:5px}
+.tinDNDiv10{height:280px;overflow:auto;width:330px}
+.tinDNDiv11{overflow:hidden;width:310px;height:auto}
+.tinDNDiv12{float:left;width:50px}
+.tinDNDiv13{float:left;width:180px;text-align:left}
+.tinDNDiv14{float:left;width:30px;}
+.tinDNDiv15{float:left;width:40px}
+.tinDNDiv16{float:left;text-align:left;width:260px;padding-left:10px}
+.tinDNDiv17{overflow:hidden;width:80px;padding-top:10px}
+.tinDNDiv18{width:12px;cursor:pointer;height:12px;background-image:url('http://cafef3.vcmedia.vn/images/images/more1.jpg');padding-top:5px}
+.tinDNDiv19{border-left:solid 1px #dadada;border-right:solid 1px #dadada;width:330px;overflow:hidden}
+.NewCommentTB{font-family:Arial;font-size:12px;text-decoration:none;font-weight:bold;color:#b2b2b2}
+dxncItemTail_news
+{
+	padding:0px 0px 0px 0px;
+}
+.dxncItemTail_news a:link
+ {
+	font-size: 11px;
+	font-weight: normal;
+	color: #c60000;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more1.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:18px;
+	height:12px;
+}
+.dxncItemTail_news a:hover {
+	font-size: 11px;
+	font-weight: normal;
+	color: #c60000;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more2.jpg);
+	background-repeat:no-repeat;
+	width:18px;
+	height:12px;
+}
+.mack_price
+{
+	FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;
+	line-height:130%; 
+	font-weight:bold; color:#666; 
+	text-decoration:0px; 
+	font-size:11px;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;}
+body
+{
+	background-color:#dadada;margin:0px 0px 0px 0px;
+}
+
+.LinkCategoryDetail
+{
+	padding-left:20px;float:left;width:430px	
+}
+
+.LinkCategoryDetail
+{
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	font-family:Arial;
+	padding-left:7px;
+}
+.LinkCategoryDetail:hover
+{
+	font-weight:bold;
+	color: #cb0003;
+	text-decoration: none;
+	font-size: 16px;
+	font-family:Arial;
+	padding-left:7px;	
+}
+
+.LinkCategoryDetailLink
+{
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	font-family:Arial;
+}
+
+.LinkCategoryDetailLink:hover
+{
+	font-weight:bold;
+	color: #cb0003;
+	text-decoration: none;
+	font-size: 16px;
+	font-family:Arial;
+}
+
+.datetimeDetail {
+	color: #666666;
+
+	font-size: 11px;
+	text-align: right;
+	font-family:Arial;
+	vertical-align: middle;
+	padding-left: 10px;
+	float:left;
+}
+
+.DetailTitleBlud 
+{
+	font-family:Arial;
+	color: #013567;
+	font-size:16px;
+	font-weight: bold;
+	overflow:hidden
+}
+
+.DetailSapo 
+{
+	vertical-align:top;
+	font-size: 12pt;
+	font-weight: bold;
+	font-family:Times New Roman;
+	color: #333333;
+	
+}
+
+.Detail_SubTitle
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	
+	overflow:hidden;padding-bottom:5px
+}
+.Detail_SubTitle a, .Detail_SubTitle a:link, .Detail_SubTitle a:active .Detail_SubTitle a:visited
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.Detail_SubTitle a:hover
+{
+	font-family: Arial;
+	color: #cb0003;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.title_tin_khac
+{
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 15px;
+	font-family:Arial;
+	padding-left:7px;
+
+	padding-bottom:10px;	
+	padding-left:20px;float:left;
+}
+
+.headDetail
+{
+	overflow:hidden	
+}
+.headDetail_left
+{
+	float:left
+}
+.headDetail_center
+{
+	float:left;width:597px;background-color:#FFFFFF;height:4px	
+}
+.contentDetail
+{
+	overflow:hidden;background-color:#FFFFFF;border-bottom:solid 1px #dadada;	
+}
+
+.footerDetail_center
+{
+	float:left;width:597px;background-color:#FFFFFF;height:4px	
+}
+
+.div_subtitle
+{
+	background-color:#FFFFFF;overflow:hidden;padding-left:25px;padding-right:10px;padding-top:10px	
+}
+
+.div_fleft_250
+{
+	float:left;width:250px	
+}
+
+.div_fleft_p10_w250
+{
+	float:left;padding-right:10px;width:250px	
+}
+
+.div_border_top
+{
+	border-top:solid 1px #dadada;	
+}
+
+.div_over_hidden_back_white
+{
+	overflow:hidden;background-color:#FFFFFF	
+}
+
+.sukien_detail {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	float:left;padding-right:30px;
+}
+
+.div_l_r_5_left
+{
+	float: left;padding-top:5px;padding-left:5px	
+}
+
+.div_l_10_t_3_left
+{
+	float:left;padding-left:10px;padding-top:3px
+}
+.div_t_3_left
+{
+	float:left;padding-top:3px
+}
+.div_l_10_left
+{
+	float:left;padding-left:10px
+}
+
+.padding_top_8
+{
+	padding-top:8px	
+}
+
+.news_detail_div
+{
+	overflow:hidden;padding-top:5px;text-align:left	
+}
+
+.detail_ImageNote
+{
+	font-size: 11px;
+	color: #003366;
+	text-align: center;
+	vertical-align: middle;
+	width: 230px;
+	white-space: pre-wrap;
+	font-family: Arial;
+	float:left;width:250px
+}
+
+.binhluan a,
+.binhluan a:link,
+.binhluan a:visited,
+.binhluan a:active
+{
+	color:#CCCCCC;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+}
+.binhluan a:hover
+{
+	color:#cc0000;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+}
+#divCommentPanel
+{
+    width: 550px;
+}
+#divCommentPanel, #divCommentPanel div, #divCommentPanel td
+{
+    font-family: Arial; 
+    color: #818181; 
+    font-size: 12px;
+}
+
+#divCommentPanel .button
+{
+    color: #CF0D0E;
+    margin:0px 10px 0px 0px;
+    width: auto;
+    border:1px solid #CCCCCC;
+}
+
+.TopCommentContainer div table
+{
+	width: 96%;
+}
+
+.sukien_comment {
+	padding-bottom: 0px;
+	background-color:#FFFFFF;
+	overflow:hidden;
+	padding-top:10px;
+	padding-right: 10px;
+	/*
+    padding-left: 5px;
+    padding-left:25px
+    */
+}
+
+.sukien_comment_a {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	
+	background-color:#FFFFFF;overflow:hidden;padding-top:10px;padding-left:20px
+}
+
+.detail_tool
+{
+	background-color:#FFFFFF;overflow:hidden;padding-top:10px;padding-left:100px	
+}
+
+
+.Home_Cat_Link
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	padding:0px 0px 0px 0px;	
+}
+.Home_Cat_Link a,
+.Home_Cat_Link a:link,
+.Home_Cat_Link a:visited,
+.Home_Cat_Link a:active
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#004276;
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+}
+.Home_Cat_Link a:hover
+{
+	color: #cb0003;
+	text-decoration: underline;
+	font-family:Arial;
+	font-size:12px;
+	padding:0px 0px 0px 0px;
+	font-weight:normal;
+}
+
+
+.Home_Cat_Link_b
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	padding:0px 0px 4px 0px;	
+}
+.Home_Cat_Link_b a,
+.Home_Cat_Link_b a:link,
+.Home_Cat_Link_b a:visited,
+.Home_Cat_Link_b a:active
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#004276;
+	padding:0px 0px 4px 0px;
+	text-decoration:none;
+}
+.Home_Cat_Link_b a:hover
+{
+	color: #cb0003;
+	text-decoration: underline;
+	font-family:Arial;
+	font-size:12px;
+	padding:0px 0px 4px 0px;
+	font-weight:normal;
+	
+}
+
+
+.KenhF_Content_News3
+{
+	text-align:left;
+	vertical-align:top;
+	font-family:Times New Roman;
+	font-size: 12pt;
+	color:#343434;
+}
+.KenhF_Content_News3 a,
+.KenhF_Content_News3 a:link,
+.KenhF_Content_News3 a:active,
+.KenhF_Content_News3 a:visited
+{
+	text-align:left;
+	vertical-align:top;
+	font-family:Times New Roman;
+	font-size: 12pt;
+	color:#004276;
+	padding:0px 0px 0px 0px	;
+	font-weight: normal;
+}
+.KenhF_Content_News3 a:hover
+{
+	text-align:left;
+	vertical-align:top;
+	font-family:Times New Roman;
+	font-size: 12pt;
+	color:#cb0003;
+	padding:0px 0px 0px 0px	;
+	font-weight: normal;
+}#BriefStockTable
+        {
+	        width:330px;
+	        height:305px;
+	        border:0px solid #000;
+	        font-size:0.9em;
+	        overflow:auto;
+	        margin-right:0px;
+	        padding:0px;
+	        float:left;	
+	        
+        	
+        	
+        }
+        .indx_title			{font-size:12px;font-family:Tahoma,Arial;text-transform:uppercase;font-weight:bold;color:#3d3d3d;TEXT-DECORATION:none;letter-spacing:0px}
+        .indx_btnon		{font-size:14px;FONT-FAMILY:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;font-weight:none;color:#C9000F;TEXT-DECORATION:none;letter-spacing:0px;background-image: url(http://cafef3.vcmedia.vn/images/StockImages/img_btnon1.gif);background-repeat:no-repeat}
+        .indx_btnon a,
+        .indx_btnon a:active,
+        .indx_btnon a:visited,
+        .indx_btnon a:link,
+        .indx_btnon a:hover
+        {
+            font-size:14px;FONT-FAMILY:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;font-weight:bold;color:#C9000F;TEXT-DECORATION:none;letter-spacing:0px;
+        }
+        .indx_btnoff		{font-size:14px;FONT-FAMILY:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;font-weight:none;color:#999999;TEXT-DECORATION:none;letter-spacing:0px}
+        .indx_mack		{font-size:14px;FONT-FAMILY:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;font-weight:none;color:#666666;TEXT-DECORATION:none;letter-spacing:0px}
+        .style1 {font-size: 14px; FONT-FAMILY: Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: bold; color: #999999; TEXT-DECORATION: none; letter-spacing: 0px; background-image: url(http://cafef3.vcmedia.vn/images/StockImages/img_btnoff1.gif);;background-repeat:no-repeat}
+        .style1 a,
+        .style1 a:active,
+        .style1 a:visited,
+        .style1 a:link,
+        .style1 a:hover
+        {
+            font-size: 14px; FONT-FAMILY: Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: bold; color: #999999; TEXT-DECORATION: none; letter-spacing: 0px;
+        }
+        .content {font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #004276; TEXT-DECORATION: none; letter-spacing: 0px; }
+        .content a,
+        .content a:link,
+        .content a:active,
+        .content a:visited,
+        .content a:hover
+        {
+            font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #004276; TEXT-DECORATION: none; letter-spacing: 0px; 
+            padding:0px 0px 0px 0px;
+        }
+        .green {font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #009933; TEXT-DECORATION: none; letter-spacing: 0px; }
+        .red{font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #ff3300; TEXT-DECORATION: none; letter-spacing: 0px; }
+        .stc_nochange
+        {
+          font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #FF9900; TEXT-DECORATION: none; letter-spacing: 0px;   
+        }
+        .gray{font-size: 11px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #787878; TEXT-DECORATION: none; letter-spacing: 0px; }
+        .grayunderline{font-size: 11px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #787878; TEXT-DECORATION:underline; letter-spacing: 0px; }
+        .style3 {font-size: 11px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: none; color: #787878; TEXT-DECORATION:none; letter-spacing: 0px; font-style: italic; }
+        .btn a:link 	{color:blue; text-decoration:none;}
+        .btn a:visited 	{color:purple; text-decoration:none;}
+        .btn a:active 	{color:red; text-decoration:none;}
+        .btn a:hover 	{color:black; text-decoration:none;position:relative;top:1;left:1}
+#container .style1 {font-size: 17px; font-family: Arial, Helvetica, sans-serif; color:#000000; font-weight:bold}
+#content .style2 {font-size: 11px; font-family: Tahoma, Helvetica, sans-serif; color:#CC0000; font-weight:bold}
+#content .style3 {font-size: 11px; font-family: Tahoma, Helvetica, sans-serif; color:#999999; font-weight:normal}
+#content .style4 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; color:#3d3d3d}
+#content .style4  a:link {font-size: 12px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;sans-serif; color:#3d3d3d; text-decoration:none;}
+#content .style4  a:hover {font-size: 12px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;color:#CC3300;}
+#content .style4  a:visited {font-size: 12px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;color:#3d3d3d;}
+#content .style4  a:actived {font-size: 12px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;color:#3d3d3d;}
+#content .style5 {font-weight: bold}
+#content .style6 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #3d3d3d; font-weight: bold; }
+.IContent
+{
+            width : 600px;position:absolute;
+            color :#C0C0C0;z-index:-1;
+            visibility:hidden;
+            left: 255px; top: 372px;
+        }
+        .TContent
+        {
+            font : 1% Verdana;
+        }
+/* Khung bang toan trang */
+
+
+.KenhF_Content_Left
+{
+	width:615px;	
+	background: #dadada;
+	padding-left:0px;
+	padding-top:0px;
+}
+.KenhF_Content_Left #Box_Left
+{
+	width:240px;
+	padding-right:8px;	
+	vertical-align:top;
+}
+.KenhF_PaddingTop{padding-top:8px;vertical-align:top;}
+.KenhF_PaddingBot{padding-bottom:8px;vertical-align:top;}
+.KenhF_Content_Left #Box_Right
+{
+	vertical-align:top;
+}
+.KenhF_Content_Right
+{
+	width: 350px;
+	border: none;
+	padding-left:8px;
+	vertical-align:top;
+	padding-top:0px;
+}
+/*content padding  */
+.CafeF_ContentPadding
+{
+	padding:5px 5px 5px 5px;
+}
+.CafeF_Padding10
+{
+	padding:10px 10px 10px 10px;
+}
+.CafeF_Padding_Box
+{
+	padding:5px 0px 0px 5px;
+	text-align:left;	
+}
+.CafeF_Padding_Box div
+{
+	vertical-align:top;
+	font-family:Arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+.CafeF_Padding_Box div a,CafeF_Padding_Box div a:link,CafeF_Padding_Box div a:active,CafeF_Padding_Box div a:visited,CafeF_Padding_Box div a:hover
+{
+	vertical-align:top;
+	font-family:Arial;
+	font-size: 17;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+	text-decoration:none;
+}
+.CafeF_Padding_Box .DateTime
+{
+	font-family:Arial;
+	font-size:11px;
+	color: #000000;	
+}
+
+/*=====================================================================*/
+/*tieu de cac box*/
+.CafeF_BoxTitle
+{
+	font-family:Arial;
+	font-size: 17;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+.CafeF_BoxTitle a, .CafeF_BoxTitle a:link, .CafeF_BoxTitle a:active, .CafeF_BoxTitle a:visited
+{	
+	font-family:Arial;
+	font-size: 17;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;	
+	color: #000000;
+}
+.CafeF_BoxTitle a:hover
+{
+	font-family:Arial;
+	font-size: 17;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	padding-top: 5px;
+	color: #cb0003;
+}
+/* ==================================================================*/
+.DateTime
+{
+	font-family:Arial;
+	font-size:12px;
+	color: #000000;
+	padding-left:5px;
+}
+.NormalText
+{
+	font-family:Arial;
+	font-size:11px;
+	color: #919191;
+}
+.NormalText_Bold,.NormalText_Bold a:link,.NormalText_Bold a,.NormalText_Bold a:visited,.NormalText_Bold a:active
+{
+	font-family:Arial;
+	font-size:11px;
+	color: #000000;
+	font-weight:bold;
+}
+.NormalText_Bold a:hover
+{
+	font-family:Arial;
+	font-size:11px;
+	color: #cb0003;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	
+}
+.NormalText_ita, .NormalText_ita a, .NormalText_ita a:link, .NormalText_ita a:active, .NormalText_ita a:visited
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #919191;
+	font-style: italic;
+	padding-right:5px;
+}
+.NormalText_ita a:hover
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #cb0003;
+	font-style: italic;
+	padding-right:5px;
+}
+/*Box */
+/* common paddings top-bottom */
+.cf_Pad5TB9LR{padding:7px 9px;}
+/* enhanced box styles
+ ============================================================================================== */
+/* white corner box */
+.cf_WCBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_TR.gif) 100% 0 no-repeat;}
+.cf_WCBox .cf_BoxHeader div
+{width:4px;height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_TL.gif) 0 0 no-repeat ;float:left}
+.cf_WCBox .cf_BoxContent
+{background:#fff;}
+.cf_WCBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BR.gif) 100% 0 no-repeat;}
+.cf_WCBox .cf_BoxFooter div
+{height:4px;width:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BL.gif) 0 0 no-repeat;float:left}
+
+/* wire box */
+.cf_WireBox .cf_BoxContent
+{background:#fff;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.cf_WireBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_TR_bg.gif) 100% 0 repeat-x;}
+.cf_WireBox .cf_BoxHeader div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_TL.gif) 0 0 no-repeat;float:left}
+.cf_WireBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BR._bg.gif) 100% 0 no-repeat;}
+.cf_WireBox .cf_BoxFooter div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BL.gif) 0 0 no-repeat;float:left}
+
+.cf_MBTop
+{border-bottom:1px solid #dfdfdf; padding:0px; margin:0px; position:relative;}
+.cf_MB .cf_MB88x31
+{position:absolute;top:1px;right:5px;}
+/*Link cac tin bai khac o trang chu*/
+.cf_Home_Cat_Link
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	padding: 0px 0px 0px 0px;
+}
+.cf_Home_Cat_Link a, .cf_Home_Cat_Link a:link, .cf_Home_Cat_Link a:visited, .cf_Home_Cat_Link a:active
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+}
+.cf_Home_Cat_Link a:hover
+{
+	color: #cb0003;
+	text-decoration: underline;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+}
+/*Category Title  */
+.cf_Home_Cat_Title
+{
+	font-family: Arial;
+	font-size: 18px;
+	color: #000000;
+	text-align: left;
+	vertical-align: text-bottom;
+	padding-top: 2px;
+	font-weight: normal;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	border-bottom: solid 1px #dadada;
+	margin: 0px 0px 0px 0px;
+}
+.cf_Home_Cat_Title a, .cf_Home_Cat_Title a:link, .cf_Home_Cat_Title a:active, .cf_Home_Cat_Title a:visited
+{
+	font-family: Arial;
+	font-size: 18px;
+	color: #000000;
+	font-weight: normal;
+	padding-left: 0px;
+	text-decoration:none;
+}
+.cf_Home_Cat_Title a:hover
+{
+	font-family: Arial;
+	font-size: 18px;
+	color: #cb0003;
+	font-weight: normal;
+	padding-left: 0px;
+}
+/* Title bai noi bat muc */
+.cf_FocusNews_Cat
+{	
+}
+.cf_FocusNews_Cat a,.cf_FocusNews_Cat a:link,.cf_FocusNews_Cat  a:visited,.cf_FocusNews_Cat  a:active
+{	
+	color:#004370;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:13px;
+	text-decoration:none;
+}
+.cf_FocusNews_Cat  a:hover
+{
+	color:#cb0003;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:13px;
+}
+/* Style for the focus Content news */
+.cf_FocusNes_Content
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+}
+/*More link*/
+.cf_imgMore
+{
+	padding:5px 0px 0px 0px;
+	font-size:12px;
+	font-family:Arial;
+	width:18px;
+	height:14px;	
+	text-align:right;
+}
+.cf_imgMore a,
+.cf_imgMore a:link,
+.cf_imgMore a:active,
+.cf_imgMore a:visited
+{
+	padding:  5px 0px 0px 0px;
+	vertical-align:middle;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more1.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-size:12px;
+	font-family:Arial;
+	width:18px;
+	height:12px;
+	text-align:right;
+	text-decoration:none;
+}
+.cf_imgMore  a:hover
+{
+	padding:5px 0px 0px 0px;
+	vertical-align:middle;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-size:12px;
+	font-family:Arial;
+	width:18px;
+	height:12px;
+	text-decoration:none;	
+}
+/*Ten user trong box comment */
+.cf_User_link
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color:#000000;
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+}
+.cf_User_link a, .cf_User a:active, .cf_User a:link, .cf_User a:visited
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color:#000000;
+	padding: 0px 0px 0px 0px;
+	text-decoration:none;
+}
+.cf_User a:hover
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 0px 0px 0px;
+	color: #cb0003;
+}
+
+.F_text_listbai 
+ {
+	color: #b2b2b2;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:0px;
+	margin:0px 0px 0px 0px ;
+	text-align:left;
+	font-family:Arial;
+ }
+ .F_text_listbai a,
+ .F_text_listbai a:link ,.F_text_listbai a:visited ,.F_text_listbai a:active
+ {
+	text-align:left;
+	color: #004276;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:0px;
+	padding:0px 0px 0px 0px ;
+	font-family:Arial;
+ }
+.F_text_listbai a:hover {
+	color: #c60000;
+	text-decoration: underline;
+	font-size:12px;
+	font-weight:normal;
+	padding:0px 0px 0px 0px ;
+	text-align:left;
+}
+/*Gia vang & ty gia ngoai te */
+.cf_grd_ColumnHeader
+{
+	color: #023D79;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #F2F2F2;
+	height: 25px;
+}
+.NumericItem
+{
+	color: #343434;
+	font-family: Arial;
+	font-size: 12px;
+	text-align:right;
+	padding-left:5px;
+	height: 20px;
+}
+.cf_SymbolItem
+{
+	color: #333333;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;	
+	padding-left:5px;
+	height: 20px;
+}
+.cf_Box_BorderTop
+{border-top:1px solid #dfdfdf; padding:0px; margin:0px; position:relative;}
+
+/*Xem tin theo category */
+.cf_Category_Padding
+{
+	padding:10px 10px 10px 10px;
+}
+.dxncItemHeader_news
+{
+	color: #004370;
+	line-height: 17px;
+	text-align:left;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+.dxncItemHeader_news a:link,.dxncItemHeader_news a:visited,.dxncItemHeader_news a:active,.dxncItemHeader_news a
+{	
+	color: #004370;
+	text-decoration: none;
+	padding-left:0px;	
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	
+}
+
+.dxncItemHeader_news a:hover
+{
+	color: #cb0003;
+	text-decoration: none;
+	padding-left:0px;	
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+}
+.dxncItemDate_news
+{
+	font-family:Arial;
+	font-size:10px;
+	color: Gray;
+	white-space: nowrap;
+}
+.sukien_DOANHNGHIEP_link
+{
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Arial;
+	padding-left: 8px;
+}
+.dxncItemContent_news
+{
+	font: 12px Arial;
+	color: #343434;
+	padding-left:0px;
+	
+} 
+.dxncItemContent_news a,
+.dxncItemContent_news a:link,
+.dxncItemContent_news a:active,
+.dxncItemContent_news a:visited
+{
+	font: 12px Arial;
+	color: #343434;
+	font-weight:normal;
+	padding:0px 0px 0px 0px;
+}
+.dxncItemContent_news a:hover
+{
+	font: 12px Arial;
+	color: #cb0003;
+	font-weight:normal;
+	padding:0px 0px 0px 0px;
+}
+/* style cho muc xem tiep */
+dxncItemTail_news
+{
+	padding:0px 0px 0px 0px;
+}
+.dxncItemTail_news a:link,
+.dxncItemTail_news a:active ,
+.dxncItemTail_news a:visited {
+	font-size: 11px;
+	font-weight: normal;
+	color: #c60000;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more1.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:18px;
+	height:12px;
+}
+.dxncItemTail_news a:hover {
+	font-size: 11px;
+	font-weight: normal;
+	color: #c60000;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:18px;
+	height:12px;
+}
+.dxpButton_Link
+{
+	font: 8pt Tahoma;
+	color: #394EA2;
+	text-decoration: underline;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.dxpDisabledButton_Link
+{
+	font: 8pt Tahoma;
+	color: black;
+	text-decoration: none;
+	cursor:pointer;
+}
+.dxncItemHeader_Link 
+ {
+	font-family:Arial;
+	color: #004276;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:5px;
+	padding-right:10px;
+	background-image: url(http://cafef3.vcmedia.vn/images/images/muiten.gif);
+	background-position:left center;
+	background-repeat:no-repeat;
+ }
+ .dxncItemHeader_Link a
+ {
+	font-family:Arial;
+	color: #004276;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:5px;
+ }
+ .dxncItemHeader_Link a:link 
+ {
+	font-family:Arial;
+	color: #004276;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:5px;
+}
+.dxncItemHeader_Link a:visited 
+{
+	font-family:Arial;
+	color: #004276;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:5px;
+}
+.dxncItemHeader_Link a:active 
+{
+	font-family:Arial;
+	color: #004276;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:5px;
+}
+.dxncItemHeader_Link a:hover 
+{
+	font-family:Arial;
+	color: #c60000;
+	text-decoration: underline;
+	font-size:12px;
+	font-weight:normal;
+	padding-left:5px;
+}
+
+/*Tieu diem */
+.bcktt
+{
+	font-family: Arial;
+	font-size: 17;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-left:5px;
+}
+
+.date_time22
+{
+	color: #666666;
+	height: 30px;
+	font-size: 11px;
+	text-align: right;
+	vertical-align: middle;
+	padding-left: 10px;
+	font-family:Arial;
+}
+.cms_SubTitle
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.cms_SubTitle a, .cms_SubTitle a:link, .cms_SubTitle a:active .cms_SubTitle a:visited
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.cms_SubTitle a:hover
+{
+	font-family: Arial;
+	color: #cb0003;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.cms_blue
+{
+	font-family: Arial;
+	color: #013567;
+	font-size: 16px;
+	font-weight: bold;
+}
+/* dinh dang mac dinh cho chi tiet tin */
+.cms_new_bold
+{
+	vertical-align: top;
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: Times New Roman;
+	color: #333333;
+	
+}
+cms_news_normal
+{
+	font-family: Times New Roman;
+	color: #013567;
+}
+.cms_ImageNote
+{
+	font-size: 11px;
+	color: #003366;
+	text-align: center;
+	vertical-align: middle;
+	width: 230px;
+	white-space: pre-wrap;
+	font-family: Arial;
+}
+.cms_ReletedNews1 
+{
+	font-family:Arial;
+	color: #004276;
+	font-size:13px;
+	text-align:left;
+	padding:0px 0px 0px 0px;
+	
+}
+
+.cms_ReletedNews1 li
+{
+	list-style-type:square;list-style-position:inside;color:#989898;	
+}
+.cms_ReletedNews1 li a
+{
+	font-size:12px;font-family:Arial;color:#003f65;text-decoration:none;
+}
+.cms_ReletedNews1 li a
+{
+	font-size:12px;font-family:Arial;color:#003f65;text-decoration:underline;
+}
+
+
+
+.cms_ReletedNews1 a,
+.cms_ReletedNews1 a:link,
+.cms_ReletedNews1 a:active,
+.cms_ReletedNews1 a:visited
+{
+	font-size:11px;font-family:Arial;color:#003f65;text-decoration:none;font-weight:normal;
+}
+.cms_ReletedNews1 a:hover
+{
+	font-size:11px;font-family:Arial;color:#003f65;text-decoration:underline;
+}
+.Article
+{
+	font-weight:bold;
+	color: #000000;
+	font-size: 12px;
+	font-family:Arial;	
+}
+.Home_Cat_Link
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	padding:0px 0px 0px 0px;
+}
+.Home_Cat_Link a,
+.Home_Cat_Link a:link,
+.Home_Cat_Link a:visited,
+.Home_Cat_Link a:active
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#004276;
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+}
+.Home_Cat_Link a:hover
+{
+	color: #cb0003;
+	text-decoration: underline;
+	font-family:Arial;
+	font-size:12px;
+	padding:0px 0px 0px 0px;
+	font-weight:normal;
+}
+
+/* ******** thanhtn added 10/07/2008 10:30 AM ************* */
+a.DarkBlue_Bold_Link,
+a.DarkBlue_Bold_Link:link,
+a.DarkBlue_Bold_Link:active,
+a.DarkBlue_Bold_Link:visited
+{
+	color:#004370;
+	font-weight:bold;
+	text-decoration:none;
+}
+a.DarkBlue_Bold_Link:hover
+{
+	color:#CC0001;
+	font-weight:bold;
+	text-decoration:none;
+}
+a.Black_Bold_Link,
+a.Black_Bold_Link:link,
+a.Black_Bold_Link:active,
+a.Black_Bold_Link:visited
+{
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+a.Black_Bold_Link:hover
+{
+	color:#CC0001;
+	font-weight:bold;
+	text-decoration:none;
+}
+ul.News_Title_Link
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 5px 10px 5px 10px;
+    padding: 0px 0px 0px 0px;
+}
+ul.News_Title_Link li
+{ 
+    background:transparent url(http://cafef3.vcmedia.vn/images/images/top_6px_dot.gif) no-repeat scroll left 0px !important;
+    margin:0px 0px 5px 3px;
+    padding:0px 0px 0px 9px;
+    font-size: 11px;
+    color: #B2B2B2;
+}
+ul.News_Title_Link li a,
+ul.News_Title_Link li a:link,
+ul.News_Title_Link li a:active,
+ul.News_Title_Link li a:visited
+{
+	color:#004370;
+	font-size: 12px;
+    text-decoration:none;
+}
+ul.News_Title_Link li a:hover
+{
+	color:#CC0000;
+	font-size: 12px;
+	text-decoration:none;
+}
+td.CompanyInfo_TabButton
+{
+	text-align: center;
+	height: 27px;
+}
+td.CompanyInfo_TabButton a.Actived,
+td.CompanyInfo_TabButton a.Actived:link,
+td.CompanyInfo_TabButton a.Actived:active,
+td.CompanyInfo_TabButton a.Actived:visited,
+td.CompanyInfo_TabButton a.Actived:hover
+{
+    color: #004377;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+td.CompanyInfo_TabButton a.InActived,
+td.CompanyInfo_TabButton a.InActived:link,
+td.CompanyInfo_TabButton a.InActived:active,
+td.CompanyInfo_TabButton a.InActived:visited
+{
+	color:#838383;
+	font-size: 12px;
+	font-weight: normal;
+    text-decoration:none;
+}
+td.CompanyInfo_TabButton a.InActived:hover
+{
+	color:#838383;
+	font-size: 12px;
+	font-weight: normal;
+    text-decoration:none;
+}
+a.News_ViewMore_Link,
+a.News_ViewMore_Link:link,
+a.News_ViewMore_Link:active,
+a.News_ViewMore_Link:visited
+{
+	color:#000;
+	font-size: 12px;
+	font-weight: bold;
+    text-decoration:none;
+    background:transparent url(http://cafef3.vcmedia.vn/images/images/more1.jpg) no-repeat scroll left 1px;
+    margin:0px 5px 0px 5px;
+    padding:0px 0px 0px 15px;
+}
+a.News_ViewMore_Link:hover
+{
+	color:#CC0000;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+	background:transparent url(http://cafef3.vcmedia.vn/images/images/more2.jpg) no-repeat scroll left 1px;
+    margin:0px 5px 0px 5px;
+    padding:0px 0px 0px 15px;
+}
+.Index_Up
+{
+    color: #00cc00;
+}
+.Index_Down
+{
+    color: #cc0000;
+}
+.Index_NoChange
+{
+    color: #FF9900;
+}
+.Index_Ceiling
+{
+    color: #E200FF;
+}
+.Index_Floor
+{
+    color: #66CCFF;
+}
+.Note
+{
+    color: #919191;
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+    font-weight: normal;
+}
+/* -------------------------- */
+table.BaoCaoTaiChinh
+{
+    width: 100%;
+    background-color: #fff;
+    color: #3D3D3D;
+    font-size: 11px;
+    text-align: left;
+}
+table.BaoCaoTaiChinh th
+{
+    background-color: #f2f2f2;
+    color: #004377;
+    font-weight: bold;
+    border: solid 1px #f2f2f2;
+    border-top: solid 1px #fff;
+}
+table.BaoCaoTaiChinh td
+{
+    border: solid 1px #fff;
+}
+table.BaoCaoTaiChinh .AlternationColumn
+{
+    background-color: #fff;
+}
+table.BaoCaoTaiChinh .Alternation
+{
+    background-color: #f2f2f2;
+}
+div.ThongTinTaiChinh_Actived
+{
+    overflow:hidden;
+    float:left;
+    width:63px;
+    height:28px;
+    margin-left:10px;
+    margin-right:3px;
+    padding-top: 4px;
+    text-align:center;
+    background:transparent url(http://cafef3.vcmedia.vn/images/CompanyInfo/img_btnactive.gif) no-repeat;
+}
+div.ThongTinTaiChinh_InActived
+{
+    overflow:hidden;
+    float:left;
+    width:63px;
+    height:28px;
+    margin-left:10px;
+    margin-right:3px;
+    padding-top: 4px;
+    text-align:center;
+    background:transparent url(http://cafef3.vcmedia.vn/images/CompanyInfo/img_btnnoactive.gif) no-repeat;
+}
+div.ThongTinTaiChinh_Actived a,
+div.ThongTinTaiChinh_Actived a:link,
+div.ThongTinTaiChinh_Actived a:active,
+div.ThongTinTaiChinh_Actived a:visited,
+div.ThongTinTaiChinh_Actived a:hover
+{
+	/*color:#8B8B8B;*/
+	color:#004377;
+	font-size: 11px;
+	font-weight: bold;
+    text-decoration:none;
+}
+div.ThongTinTaiChinh_InActived a,
+div.ThongTinTaiChinh_InActived a:link,
+div.ThongTinTaiChinh_InActived a:active,
+div.ThongTinTaiChinh_InActived a:visited
+{
+	color:#8B8B8B;
+	font-size: 11px;
+	font-weight: normal;
+    text-decoration:none;
+}
+div.ThongTinTaiChinh_InActived a:hover
+{
+	color:#cc0000;
+	font-size: 11px;
+	font-weight: normal;
+    text-decoration:none;
+}
+
+/*tooltip cho ma co phieu 8 */
+.toppre{
+	background:url(http://cafef3.vcmedia.vn/images/Tooltips/toppre.gif) transparent no-repeat;
+	line-height:26px;
+}
+
+.cafefbg{
+	background:url(http://cafef3.vcmedia.vn/images/Tooltips/cafef_bg.gif) repeat-y;
+}
+
+.cafefoot{
+	background:url(http://cafef3.vcmedia.vn/images/Tooltips/cafe_foot.gif) transparent no-repeat;
+	
+	line-height:22px;
+}
+
+.cafedate{
+	padding-left:75px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#343434;
+}
+
+.cafecont{
+	padding:5px 15px 5px 15px;
+}
+.imgMoretip
+{
+	padding:0px 0px 0px 0px;
+	font-size:12px;
+	font-family:Arial;
+	width:65px;
+	height:22px;
+	
+	text-align:right;
+}
+.imgMoretip a,
+.imgMoretip a:link,
+.imgMoretip a:active,
+.imgMoretip a:visited
+{
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more1.jpg);
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-position:left;
+	font-size:11px;
+	font-family:Arial;
+	width:65px;
+	text-align:right;
+	color:#000000;
+}
+.imgMoretip  a:hover
+{
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more2.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:11px;
+	font-family:Arial;
+	width:65px;
+	color:#cb0003;
+	text-align:right;
+	
+}
+.menu_under_link
+{
+}
+.menu_under_link a,
+.menu_under_link a:link,
+.menu_under_link a:active,
+.menu_under_link a:visited {
+	color: #666666;
+	text-decoration: none;
+	font-size:11px;
+	font-family:Verdana;
+	padding:0px 0px 0px 0px;
+}
+.menu_under_link a:hover {
+	color: #cb0003;
+	text-decoration: underline;
+	font-size:11px;
+	font-family:Verdana;
+	padding:0px 0px 0px 0px;
+	
+}
+.menu_login
+{
+	font-weight: bold;
+	color: #003466;
+	text-decoration: none;
+	font-size:11px;
+	font-family:Verdana;
+	text-align:right;
+}
+.menu_login a,
+.menu_login a:link,
+.menu_login a:active,
+.menu_login a:visited {
+	font-weight: bold;
+	color: #003466;
+	text-decoration: none;
+	font-size:11px;
+	font-family:Verdana;
+	text-align:right;
+	padding:0px 0px 0px 0px;
+}
+.menu_login a:hover {
+	font-weight: bold;
+	color: #cb0003;
+	text-decoration: none;
+	font-size:11px;
+	font-family:Verdana;
+	text-align:right;
+	padding:0px 0px 0px 0px;
+}
+.cf_tinhot_link,
+.cf_tinhot_link a,
+.cf_tinhot_link a:link,
+.cf_tinhot_link a:active,
+.cf_tinhot_link a:visted {
+	font-weight:bold;
+	font-size: 12px;
+	color: #013567;
+	font-family:Arial;
+	text-decoration: none;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+}
+.cf_tinhot_link a:hover {
+	font-weight:bold;
+	font-size: 12px;
+	color: #cc0001;
+	text-decoration: none;
+	font-family:Arial;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+}
+.KenhF_Content_News3
+{
+	text-align:left;
+	vertical-align:top;
+	font-family:Times New Roman;
+	font-size: 12pt;	
+}
+.KenhF_Content_News3 a,
+.KenhF_Content_News3 a:link,
+.KenhF_Content_News3 a:active,
+.KenhF_Content_News3 a:visited
+{
+	text-align:left;
+	vertical-align:top;
+	font-family:Times New Roman;
+	font-size: 12pt;
+	color:#004276;
+	padding:0px 0px 0px 0px	;
+	font-weight: normal;
+	text-decoration: none;
+}
+.KenhF_Content_News3 a:hover
+{
+	text-align:left;
+	vertical-align:top;
+	font-family:Times New Roman;
+	font-size: 12pt;
+	color:#cb0003	;
+	padding:0px 0px 0px 0px	;
+	font-weight: normal;
+	text-decoration: none;
+}
+.Filter
+{
+	text-align:center;
+	border:solid 1px #dadada;
+	
+}
+
+.Filter a:link
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: normal;	
+	color:#000000;
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+}
+.Filter a:active
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: normal;
+	background-color:Red;
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+}
+.Filter a:visited
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: normal;
+	color:#000000;		
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+}
+.Filter a:hover
+{
+	text-decoration: underline;
+	color: #ff0000;		
+	padding:0px 0px 0px 0px;
+	text-decoration:none;
+}
+
+
+table.cactinlienquan img { margin:0px; padding:0px; border:none;}
+td.cactinlienquan_content { text-align: left; background-image: url(http://cafef3.vcmedia.vn/images/BlockEditor/CacTinLienQuan/Untitled-2.gif); background-repeat: repeat-y; }
+td.cactinlienquan_content a, td.cactinlienquan_content a:link, td.cactinlienquan_content a:visited, td.cactinlienquan_content a:active { color: #333333; font-family: Arial; font-size: 12px; float: left; padding: 5px 0px 5px 26px; background-image: url(http://cafef3.vcmedia.vn/images/BlockEditor/CacTinLienQuan/dotted.gif); background-repeat: no-repeat; background-position: 17px 12px; font-family:Arial; font-size:12px; color:#606060; width:230px}
+td.cactinlienquan_content a em { color: #909090; font-style: normal; }
+.bcktt
+{
+	font-family:Arial;
+	font-size:17;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:middle;
+	padding-top:5px;
+	text-decoration:none;
+}
+.bcktt a,
+.bcktt a:link,
+.bcktt a:active,
+.bcktt a:visited
+{
+	font-family:Arial;
+	font-size:17;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:middle;
+	padding-top:5px;
+	color:#000000;
+	text-decoration:none;
+}
+.bcktt a:hover
+{
+	font-family:Arial;
+	font-size:17;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:middle;
+	padding-top:5px;
+	color:#cb0003;
+	text-decoration:none;
+}
+.imgMore1
+{
+	padding:5px 0px 0px 0px;
+	font-size:12px;
+	font-family:Arial;
+	width:65px;
+	height:14px;
+	
+	text-align:right;
+}
+.imgMore1 a,
+.imgMore1 a:link,
+.imgMore1 a:active,
+.imgMore1 a:visited
+{
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more1.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:11px;
+	font-family:Arial;
+	width:65px;
+	text-align:right;
+	color:#000000;
+	text-decoration:none;
+}
+.imgMore1  a:hover
+{
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+	background-image:url(http://cafef3.vcmedia.vn/images/images/more2.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:11px;
+	font-family:Arial;
+	width:65px;
+	color:#cb0003;
+	text-align:right;
+	text-decoration:none;
+	
+}
+.Event_Images {
+	background-image: url(http://cafef3.vcmedia.vn/images/images/Home_r35_c23.jpg);
+	background-repeat: no-repeat;
+	background-position: center 5px  ;
+	width: 20px;
+}
+
+/*Portfolio */
+td.TabPannel
+{
+    background-color: #e1e1e1;
+    padding: 5px 5px 5px 5px;
+}
+td.TabPannel a, td.TabPannel a:link, td.TabPannel a:active, td.TabPannel a:visited
+{
+    color:#003466;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0px;
+    font-family:Arial;
+    font-size:12px;
+}
+td.TabPannel a:hover
+{
+    color: #cc0000;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0px;
+    font-family:Arial;
+    font-size:12px;
+}
+td.TabPannel a[disabled='disabled'], td.TabPannel a[disabled='disabled']:link, td.TabPannel a[disabled='disabled']:active, td.TabPannel a[disabled='disabled']:visited, td.TabPannel a[disabled='disabled']:hover
+{
+    color: #aaaaaa;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 0px;
+    font-family:Arial;
+    font-size:12px;
+}
+.BoxTable
+{
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+    background-color: #ced2e1;
+    width: 100%;
+    
+}
+.BoxTable tr th
+{
+    background-color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+}
+.BoxTable tr td
+{
+    background-color: #f5f5f5;
+}
+
+.GridTable
+{
+    font-size: 12px;
+    font-family: Arial, Tahoma, Verdana;
+    color: #333333;
+	border:solid 1px #dadada;
+    width: 100%;
+}
+.GridTable tr td input
+{
+    width: 80px;
+    text-align: right;
+}
+.GridTable tr th
+{
+    font-weight: bolder;
+    color:#003466;
+    text-align: center;
+    background-color: #e5e5e5;
+    border-left:solid 1px #FFFFFF;
+    padding:1px  1px 5px 1px;
+}
+.GridTable tr th input
+{
+    border:none; width:10px;
+}
+.GridTable tr th.symbolheader
+{
+	border-left:none;
+}
+.GridTable tr td
+{
+    text-align: right;
+    background-color: #ffffff;
+    border-right:solid 1px #dadada;
+}
+.GridTable tr._trtaalt td
+{
+    text-align: right;
+    background-color: #f5f5f5;
+    border-right:solid 1px #dadada;
+}
+.GridTable tr.pSumary
+{ font-weight:bold;
+}
+.GridTable tr td.Empty
+{
+	border-right:none;
+}
+.GridTable tr.pSumary td
+{
+	border-top:solid 1px #dadada;
+	padding-bottom:5px;
+}
+td a, td a:link, td a:active, td a:visited
+{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:#0d3479
+}
+td a:hover
+{
+    color: #cb0007;
+    text-decoration: underline;
+}
+.GridTable tr td.CurrentPrice
+{
+    text-align: center;
+    font-weight: normal;
+}
+.GridTable tr td.Symbol
+{
+    text-align: left;
+    font-weight: bold;
+}
+.GridTable .PortfolioTitle td, .GridTable td.PortfolioTitle
+{
+    text-align: left;
+    background-color: #efefef;
+}
+.GridTable tr td.Sumary
+{
+    text-align: left;
+    font-weight: bold;
+    color:#000;
+    
+}
+
+table.CafeF_Paging
+{
+    border: none;
+}
+table.CafeF_Paging td
+{
+    border: solid 1px #dadada;
+    font-weight: bold;
+    color: #cc0000;
+    font-family: Arial;
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+table.CafeF_Paging td a, table.CafeF_Paging td a:link, table.CafeF_Paging td a:active, table.CafeF_Paging td a:visited
+{
+    font-weight: normal;
+    color: #004370;
+    text-decoration: none;
+}
+table.CafeF_Paging td a:hover
+{
+    font-weight: normal;
+    color: #cc0000;
+    text-decoration: none;
+}
+/* --------------------------------------------------------------- */
+.CafeF_BanLanhDao
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #666666;
+}
+.CafeF_BanLanhDao th
+{
+    font-weight: bold;
+}
+.CafeF_BanLanhDao .BlockTitle
+{
+    text-align: center;
+    font-weight: bold;
+    color: #004276;
+    background-color: #f2f2f2;
+    border-bottom: solid 1px #dddddd;
+    border-top: solid 1px #c9c9c9;
+    padding: 3px 5px 3px 5px;
+}
+.CafeF_BanLanhDao .FieldTitle
+{
+    font-weight: bold;
+    border-bottom: solid 1px #dddddd;
+}
+.CafeF_BanLanhDao tr.alt td
+{
+    background-color: #F2F2F2;
+}
+
+.BanLanhDaoCoCuSoHuu_Sel
+{
+	width: 109px;
+    height: 29px;
+    background-image: url('http://cafef3.vcmedia.vn/images/CompanyInfo/banlanhdao_sohuu_sel.gif');
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border: none;
+    text-align:center;
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top:5px;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+.BanLanhDaoCoCuSoHuu_Sel a,
+.BanLanhDaoCoCuSoHuu_Sel a:link,
+.BanLanhDaoCoCuSoHuu_Sel a:visited
+{      
+    font-weight: bold;
+    border: none;
+    text-align:center;
+    color: #fff;    
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+
+.BanLanhDaoCoCuSoHuu_UnSel
+{
+	width: 109px;
+    height: 29px;
+    background-image: url('http://cafef3.vcmedia.vn/images/CompanyInfo/banlanhdao_sohuu_unsel.gif');
+    background-repeat:repeat-x;
+    font-weight: normal;
+    text-align:center;
+    border: none;
+    color: #727272;
+    padding-bottom: 5px;
+    padding-top:5px;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+.BanLanhDaoCoCuSoHuu_UnSel a:link,
+.BanLanhDaoCoCuSoHuu_UnSel a:visited,
+.BanLanhDaoCoCuSoHuu_UnSel a
+{   
+    font-weight: normal;
+    text-align:center;
+    border: none;
+    color: #727272;    
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+
+/* --------------------------------------------------------------- */
+.treeview, .treeview ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.treeview ul {
+	background-color: white;
+	margin-top: 4px;
+}
+
+.treeview .hitarea {
+	background: url(http://cafef3.vcmedia.vn/images/CompanyInfo/treeview-default.gif) -64px -25px no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+	float: left;
+	cursor: pointer;
+}
+/* fix for IE6 */
+* html .hitarea {
+	display: inline;
+	float:none;
+}
+
+.treeview li { 
+	margin: 0;
+	padding: 3px 0pt 3px 16px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol { margin: 1em 0; display: none; }
+
+.treeview .hover { color: red; cursor: pointer; }
+
+.treeview li { background: url(http://cafef3.vcmedia.vn/images/CompanyInfo/treeview-default-line.gif) 0 0 no-repeat; }
+.treeview li.collapsable, .treeview li.expandable { background-position: 0 -176px; }
+
+.treeview .expandable-hitarea { background-position: -80px -3px; }
+
+.treeview li.last { background-position: 0 -1766px }
+.treeview li.lastCollapsable, .treeview li.lastExpandable { background-image: url(http://cafef3.vcmedia.vn/images/CompanyInfo/treeview-default.gif); }  
+.treeview li.lastCollapsable { background-position: 0 -111px }
+.treeview li.lastExpandable { background-position: -32px -67px }
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea { background-position: 0; }
+
+.filetree { font-family: Arial; font-size: 12px; }
+.filetree li { padding: 3px 0px 2px 16px; }
+.filetree span.folder, .filetree span.file { padding: 1px 0 1px 16px; display: block; }
+.filetree span.folder { background: url(http://cafef3.vcmedia.vn/images/CompanyInfo/folder.gif) 0 0 no-repeat; padding-left: 20px; font-weight: bold; color: #0D3479; }
+.filetree li.expandable span.folder { background: url(http://cafef3.vcmedia.vn/images/CompanyInfo/folder-closed.gif) 0 0 no-repeat; padding-left: 17px; font-weight: bold; color: #0D3479; }
+.filetree span.file { background: url(http://cafef3.vcmedia.vn/images/CompanyInfo/file.gif) 0 0 no-repeat; }
+
+.filetree span.folder a, .filetree span.folder a:link, .filetree span.folder a:active, .filetree span.folder a:visited, 
+.filetree li.expandable span.folder a, .filetree li.expandable span.folder a:link, .filetree li.expandable span.folder a:active, .filetree li.expandable span.folder a:visited
+{
+    font-weight: bold;
+    color: #0D3479;
+    text-decoration: none;
+}
+.filetree span.folder a:hover,
+.filetree li.expandable span.folder a:hover
+{
+    font-weight: bold;
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+.filetree span.file a, .filetree span.file a:link, .filetree span.file a:active, .filetree span.file a:visited
+{
+    font-weight: normal;
+    color: #0D3479;
+    text-decoration: none;
+}
+.filetree span.file a:hover
+{
+    font-weight: normal;
+    color: #cc0000;
+    text-decoration: underline;
+}
+/* --------------------------------------------------------------- */
+#CafeF_ThiTruongNiemYet_Content a.Normal, 
+#CafeF_ThiTruongNiemYet_Content a.Normal:link, 
+#CafeF_ThiTruongNiemYet_Content a.Normal:active, 
+#CafeF_ThiTruongNiemYet_Content a.Normal:visited
+{
+    font-weight: normal;
+    color: #0D3479;
+    text-decoration: none;
+}
+#CafeF_ThiTruongNiemYet_Content a.Normal:hover
+{
+    font-weight: normal;
+    color: #cc0000;
+    text-decoration: underline;
+}
+/* --------------------------------------------------------------- */
+h1
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-weight: normal;
+}
+h1.h1title
+{
+    color: #dadada;
+    font: 0% Verdana;
+    font-weight: normal;
+}
+h1.h1title_white
+{
+    color: #ffffff;
+    font: 0% Verdana;
+    font-weight: normal;
+}
+h1 td, h1 a, h1 div
+{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+.Item_Symbol_Normal
+{
+	color: #000;font-family: Arial;font-size: 12px;
+	float: left; width: 96px; text-align: left; padding-left: 10px;
+}
+.Item_Value_Normal
+{
+	color: #000;font-family: Arial;font-size: 12px;
+	float: left; width: 55px;
+}
+.Item_Sep_Normal
+{
+	float: left; width: 2px;background-color:#FFF
+}
+
+/* ----- Box Tin nhanh va Y kien doc gia ---------------------------------------------------------- */
+/* ----- Box Tin nhanh va Y kien doc gia ---------------------------------------------------------- */
+.BoxTinNhanh
+{
+	font-family: Arial;
+	font-size: 12px;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.BoxTinNhanh .ButtonActived
+{
+	overflow: hidden; 
+	float: left; 
+	margin-top: 13px; 
+	padding: 2px 5px 1px 5px;
+	
+	background-image: url(http://cafef3.vcmedia.vn/images/Box_TinNhan_YKienDocGia/tab_actived.gif);
+	background-repeat: repeat-x;
+}
+.BoxTinNhanh .ButtonActived a, 
+.BoxTinNhanh .ButtonActived a:link, 
+.BoxTinNhanh .ButtonActived a:visited, 
+.BoxTinNhanh .ButtonActived a:active, 
+.BoxTinNhanh .ButtonActived a:hover
+{
+	color: #cc0000;
+	font-weight:bold;
+	text-decoration: none;
+}
+.BoxTinNhanh .ButtonInActived
+{
+	overflow: hidden; 
+	float: left; 
+	margin-top: 13px; 
+	padding: 2px 5px 1px 5px;
+	
+}
+.BoxTinNhanh .ButtonInActived a, 
+.BoxTinNhanh .ButtonInActived a:link, 
+.BoxTinNhanh .ButtonInActived a:visited, 
+.BoxTinNhanh .ButtonInActived a:active
+{
+	color: #aaaaaa;
+	font-weight:bold;
+	text-decoration: none;
+}
+.BoxTinNhanh .ButtonInActived a:hover
+{
+	color: #cc0000;
+	font-weight:bold;
+	text-decoration: none;
+	
+}
+.BoxTinNhanh a.ViewDetail, .BoxTinNhanh a.ViewDetail:link, .BoxTinNhanh a.ViewDetail:visited, .BoxTinNhanh a.ViewDetail:active
+{
+	color: #999999;
+	font-size: 11px;
+	text-decoration: none;
+}
+.BoxTinNhanh a.ViewDetail:hover
+{
+	color: #cc0000;
+	font-size: 11px;
+	text-decoration: none;
+	
+}
+.BoxTinNhanh .HiddenLeft
+{
+	overflow: hidden; 
+	float: left;
+}
+.BoxTinNhanh .HiddenRight
+{
+	overflow: hidden; 
+	float: right;
+}
+.BoxTinNhanh .Container
+{
+	overflow: hidden; 
+	background-image: url(http://cafef3.vcmedia.vn/images/Box_TinNhan_YKienDocGia/boxtinnhanh_12.gif); 
+	background-repeat: repeat-y;
+	text-align: left;
+}
+.BoxTinNhanh #BoxYKienDocGia
+{
+	background-image: url(http://cafef3.vcmedia.vn/images/Box_TinNhan_YKienDocGia/boxtinnhanh_14.gif); 
+	background-repeat: repeat-y; 
+	background-position: right; 
+	padding: 5px 12px 5px 12px;
+}
+.BoxTinNhanh #BoxTinNhanh
+{
+	background-image: url(http://cafef3.vcmedia.vn/images/Box_TinNhan_YKienDocGia/boxtinnhanh_14.gif); 
+	background-repeat: repeat-y; 
+	background-position: right; 
+	padding: 5px 12px 5px 12px;
+}
+.BoxTinNhanh #BoxTinNhanh .ItemContainer
+{
+	background-image: url(http://cafef3.vcmedia.vn/images/squaredot.jpg); 
+	background-repeat: no-repeat; 
+	background-position: 1px 8px; 
+	padding-left: 8px;
+}
+.BoxTinNhanh #BoxTinNhanh .ItemTitle
+{
+	color: #004370; 
+	font-weight: bold;
+}
+.BoxTinNhanh #BoxTinNhanh .ItemDetail
+{
+	color: #666666; 
+	padding-top: 3px; 
+	padding-bottom: 3px; 
+	margin-bottom: 5px;
+	border-bottom: 1px dotted #999999;
+}
+/* style moi cho cac title category o trang chu */
+.Home_Category
+{
+}
+/* style moi cho title cua cac box o trang chu */
+.Box_Title_Home{font-family:Tahoma,Arial;text-transform:uppercase;font-size: 12px;color:#000;text-align: left;font-weight: bold;text-decoration:none;font-style:normal;text-align:left}
+.Box_Title_Home :hover{font-family: Tahoma,Arial;text-transform:uppercase;font-size: 12px;color:#cc0001;text-align: left;font-weight: bold;text-decoration:none;font-style:normal;text-align:left}
+
+/* style cho lich su kien */
+div.SuKienTrongThang div.top{background-color:#ccc;background-image:url(http://cafef3.vcmedia.vn/images/sukientrongthang_04.gif); background-repeat: repeat-x}
+div.SuKienTrongThang div.top_inner{background-image:url(http://cafef3.vcmedia.vn/images/sukientrongthang_03.gif);background-position:left top;background-repeat:no-repeat; text-align: right;}
+div.SuKienTrongThang div.title{font-size: 13px; color: #cc0000; font-weight: bold; text-align: left; padding: 2px 0px 3px 5px; background-color: #eeeeee;}
+div.SuKienTrongThang div.border{font-family:Arial;border-left:solid #cdcdcd 1px;border-right:solid #cdcdcd 1px;}
+div.SuKienTrongThang div.bottom{overflow:hidden;background-image:url(http://cafef3.vcmedia.vn/images/sukientrongthang_13.gif);}
+div.SuKienTrongThang div.bottomleft{overflow:hidden;float:left;}
+div.SuKienTrongThang div.bottomright{overflow:hidden;float:right;}
+div.SuKienTrongThang table{font-family:Arial;font-size:12px;border:none;width:100%;}
+div.SuKienTrongThang table th{color:#004276;border-top:solid #cdcdcd 1px;border-bottom:solid #cdcdcd 1px;border-right:solid #cdcdcd 1px;border-left:none;white-space:nowrap;}
+div.SuKienTrongThang table th.leftcell{border-left:solid #cdcdcd 1px;}
+div.SuKienTrongThang table td{ border-bottom: none; border-top:none; border-right: solid #cdcdcd 1px; border-left:solid #cdcdcd 1px; }
+div.SuKienTrongThang table td.normal {color:#333;border-right:solid #cdcdcd 1px;border-bottom:solid #cdcdcd 1px;border-left:none;}
+div.SuKienTrongThang table td.leftcell{border-left:solid #cdcdcd 1px;text-align:center;}
+div.SuKienTrongThang table tr.Alt{background-color:#f3f3f3;}
+div.SuKienTrongThang table tr td table {border: none; width: auto;}
+div.SuKienTrongThang table td a, div.SuKienTrongThang table td a:link, div.SuKienTrongThang table td a:visited, div.SuKienTrongThang table td a:active, div.SuKienTrongThang table td a:hover { font-weight: normal; }
+
+.cf_GrayCBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_TR.gif) 100% 0 no-repeat;}
+.cf_GrayCBox .cf_BoxHeader div
+{width:4px;height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_TL.gif) 0 0 no-repeat ;float:left}
+.cf_GrayCBox .cf_BoxContent
+{background:#fff;}
+.cf_GrayCBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_BR.gif) 100% 0 no-repeat;}
+.cf_GrayCBox .cf_BoxFooter div
+{height:4px;width:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_BL.gif) 0 0 no-repeat;float:left}
+
+/* wire box */
+.cf_GrayireBox .cf_BoxContent
+{background:#fff;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.cf_GrayireBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/GrayBox/corner_wire_TR_bg.gif) 100% 0 repeat-x;}
+.cf_GrayireBox .cf_BoxHeader div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_wire_TL.gif) 0 0 no-repeat;float:left}
+
+.cf_GrayireBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/GrayBox/corner_wire_BR._bg.gif) 100% 0 no-repeat;}
+.cf_GrayireBox .cf_BoxFooter div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_wire_BL.gif) 0 0 no-repeat;float:left}
+
+.cf_MBTop
+{border-bottom:1px solid #dfdfdf; padding:0px; margin:0px; position:relative;}
+.cf_MB .cf_MB88x31
+{position:absolute;top:1px;right:5px;}
+/*Link cac tin bai khac o trang chu*/
+#divHeader
+{
+	background-color:#FFF;
+	overflow: hidden; 
+	height: 20px; 
+	padding-top: 0px
+}
+#divHeader #div_okyhan
+{	
+	float: left; 
+	width: 60px; 
+	text-align: left; 
+	padding-left: 10px; 
+	border-right: solid 1px #E6E6E6;
+    background-color: #F2F2F2; 
+    padding-top: 4px
+}
+#divHeader .divItem2
+{
+	float: left; 
+	width: 27px; 
+	padding-top: 4px; 
+	border-right: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e6e6e6; font-weight: normal;
+    
+}
+#laixuat_content div
+{
+	color: #000;font-family: Arial;font-size: 12px;vertical-align:middle
+}
+#divHeader div a,
+#divHeader div a:link,
+#divHeader div a:visited
+{
+	color: #000;font-family: Arial;font-size: 12px;font-weight: normal;
+	text-decoration:none;
+}
+#divHeader div a:hover
+{
+	color: #cb0000;font-family: Arial;font-size: 12px;font-weight: normal;
+}
+#divHeader div a:active
+{
+	color: #004588;font-family: Arial;font-size: 12px;font-weight: normal;
+	text-decoration:none;
+}
+
+
+.cf_RedCBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_TR.gif) 100% 0 no-repeat;}
+
+.cf_GrayCBox .cf_BoxHeader div
+{width:4px;height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_TL.gif) 0 0 no-repeat ;float:left}
+.cf_GrayCBox .cf_BoxContent
+{background:#fff;}
+.cf_GrayCBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_BR.gif) 100% 0 no-repeat;}
+.cf_GrayCBox .cf_BoxFooter div
+{height:4px;width:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_dg_BL.gif) 0 0 no-repeat;float:left}
+
+/* wire box */
+.cf_RedCBox .cf_BoxContent
+{}
+.cf_RedireBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/RedBox/corner_Red_TR_bg.gif) 100% 0 repeat-x;}
+.cf_RedireBox .cf_BoxHeader div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/RedBox/corner_Red_TL.gif) 0 0 no-repeat;float:left}
+
+.cf_RedireBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/GrayBox/corner_wire_BR._bg.gif) 100% 0 no-repeat;}
+.cf_RedireBox .cf_BoxFooter div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/GrayBox/corner_wire_BL.gif) 0 0 no-repeat;float:left}
+
+
+#overlayTabs{margin:0;padding:2px 5px 5px 5px;_padding-bottom:4px;position:relative;z-index:10000;font:normal 11px Arial,Helvetica,sans-serif;cursor:auto;}
+#overlayTabs li{display:inline;cursor:pointer;white-space:nowrap;}
+#overlayTabs li span{padding:3px 8px;margin:0 3px;color:#0E46B3;background:#CECECE;border:1px solid #9aaeca;border-bottom:0 solid #C5C1C3;text-decoration:none;height:auto;}
+#overlayTabs li span.selected{padding:3px 8px 3px 8px;background:#fff;border:1px solid #9aaeca;border-bottom-color:#fff;color:#000;}
+#overlayTabs li span:hover{text-decoration:underline;}
+#overlayTabs li span.selected:hover{background:#fff;text-decoration:none;cursor:auto;}
+
+#cf_TipLayer span.span_content
+{
+	border-top:solid 1px #e6e6e6;
+}
+#cf_TipLayer span.span_tab
+{		
+	border-bottom:solid 1px #e6e6e6;
+	text-decoration:none;	
+	width:300px;
+	font-family:Arial;
+	font-size:11px;	
+	height:35px;
+	
+	
+}
+#cf_TipLayer span.span_default
+{
+	background-color:#e5e5e5;
+	font-family:Arial;
+	font-size:11px;	
+	border:solid 1px #e6e6e6;
+	height:35px;
+}
+#cf_TipLayer span.span_selected
+{
+	background-color:#fff;
+	border:solid 1px #e6e6e6;
+	font-family:Arial;
+	font-size:11px;	
+	border-bottom:solid 1px #fff;
+	height:35px;
+	
+}
+
+
+.dhtml_tooltip{
+	position: absolute;
+	width: 150px;
+	border: 2px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+/* OTC */
+.cf_CompanyInfo
+{
+	border:solid 1px #dadada;
+	width:607px;
+	padding-top:10px;padding-left:0px;float:left;
+	background-color:#DCE5F4
+}
+
+.cf_OTC
+{
+	width: 134px; height: 30px; float: left; background-color: #fff;
+	border-bottom: solid 1px #D6D6D8;text-align:center;
+}
+.cf_OTC_Selected
+{
+	width: 134px; height: 30px; float: left; background-color: #fff;
+	border-bottom: solid 1px #fff;text-align:center;
+}
+
+.cf_OTC_Selected .otc_BoxHeader,
+.cf_OTC .otc_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/OTC/top.png) 100% 0 no-repeat;}
+
+.cf_OTC_Selected .otc_BoxContent,
+.cf_OTC .oct_BoxContent
+{
+	background:#fff;
+	border-left:solid 1px #D6D6D8;
+	border-right:solid 1px #D6D6D8;
+	text-align: center;
+    vertical-align: top; 
+    height:26px;
+    vertical-align:middle;
+}
+.SelectedTab,
+.SelectedTab:link,
+.SelectedTab:visited,
+.SelectedTab:active
+{
+	color:#3F658C;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;	
+	text-align:center;
+	text-decoration:none;
+}
+
+.SelectedTab:hover
+{
+	color:red;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;	
+	text-align:center;
+	text-decoration:none;
+}
+
+.NormalTab,
+.NormalTab:link,
+.NormalTab:active,
+.NormalTab:visited
+{
+	color:#666666;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;	
+	text-align:center;
+	text-decoration:none;
+}
+.NormalTab:hover
+{
+	color:red;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:normal;	
+	text-align:center;
+	text-decoration:none;
+}
+
+/* bao cao tai chinh day du */
+.finance_NhomChiTieu
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	height:30px;
+	color:rgb(126, 126, 126);
+	
+}
+.otc_bctc_item
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+}
+div.OTC_Actived
+{
+    overflow:hidden;
+    float:left;
+    width:63px;
+    height:28px;
+    margin-left:10px;
+    margin-right:3px;
+    padding-top: 4px;
+    text-align:center;
+    background:transparent url(http://cafef3.vcmedia.vn/images/CompanyInfo/OTC_btnactive.gif) no-repeat;
+}
+div.OTC_InActived
+{
+    overflow:hidden;
+    float:left;
+    width:63px;
+    height:28px;
+    margin-left:10px;
+    margin-right:3px;
+    padding-top: 4px;
+    text-align:center;
+    background:transparent url(http://cafef3.vcmedia.vn/images/CompanyInfo/OTC_btnnoactive.gif) no-repeat;
+}
+div.OTC_Actived a,
+div.OTC_Actived a:link,
+div.OTC_Actived a:active,
+div.OTC_Actived a:visited,
+div.OTC_Actived a:hover
+{
+	color:#003466;
+	font-size: 11px;
+	font-weight: bold;
+    text-decoration:none;
+}
+div.OTC_InActived a,
+div.OTC_InActived a:link,
+div.OTC_InActived a:active,
+div.OTC_InActived a:visited
+{
+	color:#003466;
+	font-size: 11px;
+	font-weight: normal;
+    text-decoration:none;
+}
+div.OTC_InActived a:hover
+{
+	color:#cc0000;
+	font-size: 11px;
+	font-weight: normal;
+    text-decoration:none;
+}
+.OTC_BanLanhDaoCoCuSoHuu_Sel
+{
+	width: 109px;
+    height: 29px;
+    background-image: url('http://cafef3.vcmedia.vn/images/CompanyInfo/otc_banlanhdao_sohuu_sel.gif');
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border: none;
+    text-align:center;
+    color: #003466;
+    padding-bottom: 5px;
+    padding-top:5px;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+.OTC_BanLanhDaoCoCuSoHuu_Sel a,
+.OTC_BanLanhDaoCoCuSoHuu_Sel a:link,
+.OTC_BanLanhDaoCoCuSoHuu_Sel a:visited
+{      
+    font-weight: bold;
+    border: none;
+    text-align:center;
+    color: #003466;    
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+
+.OTC_BanLanhDaoCoCuSoHuu_UnSel
+{
+	width: 109px;
+    height: 29px;
+    background-image: url('http://cafef3.vcmedia.vn/images/CompanyInfo/otc_banlanhdao_sohuu_unsel.gif');
+    background-repeat:repeat-x;
+    font-weight: normal;
+    text-align:center;
+    border: none;
+    color: #727272;
+    padding-bottom: 5px;
+    padding-top:5px;
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+.OTC_BanLanhDaoCoCuSoHuu_UnSel a:link,
+.OTC_BanLanhDaoCoCuSoHuu_UnSel a:visited,
+.OTC_BanLanhDaoCoCuSoHuu_UnSel a
+{   
+    font-weight: normal;
+    text-align:center;
+    border: none;
+    color: #727272;    
+    cursor: hand;
+    cursor: pointer;
+    vertical-align:middle;
+}
+.ac_results {
+	padding: 0 0 0 0;	
+	background-color: #dadada;
+	/*border: 1px solid #119621;*/
+	border-bottom: solid 1px Gray;
+	border-left:solid 1px Gray;
+	border-right:solid 1px Gray;
+	z-index:1001;
+	overflow:visible;
+	position:absolute;
+	margin-top: 0px;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow:visible;
+}
+.ac_results ul em {
+	font-weight: bold;
+	font-style:normal;
+	/*color: #FF0068;*/
+	color:Red;
+}
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: pointer;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font-size: 13px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 130%;
+	overflow:visible;
+	text-align:left;
+}
+
+.ac_loading {
+	background : Window url('indicator.gif') right center no-repeat;
+}
+
+.ac_over {
+	background-color: #e7e7e7;
+	color: #000000;
+}
+
+.ac_moreItems {
+	text-align: center;
+	background-color: InactiveCaption;
+	color: InactiveCaptionText;
+	margin: 0px;
+	padding: 0px 5px;
+	cursor: default;
+	display: block;
+	width: 100%;
+	font-family:Tahoma;
+	font: bold menu 12px;
+	overflow: hidden;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+/* ************************************** */
+div#CafeF_StockSymbolSlideTable_Container
+{
+	font-family:Arial,Helvetica,sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+table#CafeF_StockSymbolSlideTable
+{
+	background-color: #fff;
+	width: 100%;
+}
+div#CafeF_StockSymbolSlideTable_Container td
+{
+	border-top: 1px solid #C4C4C4;
+	border-bottom: 1px solid #C4C4C4;
+}
+div#CafeF_StockSymbolSlideTable_Container td.Left_Right 
+{
+	border: none;
+	width: 6px;
+	background-color: rgb(218, 218, 218);
+}
+div#CafeF_StockSymbolSlideTable_Container .Button
+{
+    cursor: hand;
+    cursor: pointer;
+    text-align: center;
+    width: 18px;
+}
+div#CafeF_StockSymbolSlideTable_Container img
+{
+	border:0;
+    cursor: hand;
+    cursor: pointer;
+	vertical-align:baseline;
+}
+div#CafeF_StockSymbolSlideTable_Container div.FloatLeft
+{
+	overflow:hidden;
+	float:left;
+	margin-left: 3px;
+}
+div#CafeF_StockSymbolSlideTable_Container div.FloatRight
+{
+	overflow:hidden;
+	float:right;
+	font-size:10px;
+	text-align:right;
+	margin-right: 3px;
+}
+div#CafeF_StockSymbolSlideTable_Container td.RightBorder
+{
+	border-right:1px solid #C4C4C4;
+}
+div#CafeF_StockSymbolSlideTable_Container span.Up
+{
+	color:#090;
+}
+div#CafeF_StockSymbolSlideTable_Container span.Down
+{
+	color:#c00;
+}
+div#CafeF_StockSymbolSlideTable_Container span.NoChange
+{
+	color:#D0AD08;
+}
+div#CafeF_StockSymbolSlideTable_Container span.Ceiling
+{
+	color:#E200FF;
+}
+div#CafeF_StockSymbolSlideTable_Container span.Floor
+{
+	color:#3987AE;
+}
+div#CafeF_StockSymbolSlideTable_Container div.Price
+{
+	color:#666;
+	font-size:12px;
+	font-weight:700;
+	text-align:left;
+}
+div#CafeF_StockSymbolSlideTable_Container div.HiddenText
+{
+	color:#DDD;
+	cursor:pointer;
+	font-size:10px;
+	font-weight:700;
+	text-align:center;
+	width:100%;
+}
+div#CafeF_StockSymbolSlideTable_Container a,
+div#CafeF_StockSymbolSlideTable_Container a:link,
+div#CafeF_StockSymbolSlideTable_Container a:active,
+div#CafeF_StockSymbolSlideTable_Container a:visited
+{
+	color:#003466;
+	font-size:11px;
+	font-weight:700;
+	margin-right:2px;
+	text-decoration:none;
+	padding:0;
+}
+div#CafeF_StockSymbolSlideTable_Container a:hover
+{
+	color:#CB0003;
+	font-size:11px;
+	font-weight:700;
+	margin-right:2px;
+	text-decoration:none;
+	padding:0;
+}
+td#CafeF_StockSymbolSlideTable_Cell0,
+td#CafeF_StockSymbolSlideTable_Cell1,
+td#CafeF_StockSymbolSlideTable_Cell2,
+td#CafeF_StockSymbolSlideTable_Cell3,
+td#CafeF_StockSymbolSlideTable_Cell4,
+td#CafeF_StockSymbolSlideTable_Cell5,
+td#CafeF_StockSymbolSlideTable_Cell6
+{
+    width: 115px;
+    padding: 2px;
+}
+td#CafeF_StockSymbolSlideTable_Cell0 td,
+td#CafeF_StockSymbolSlideTable_Cell1 td,
+td#CafeF_StockSymbolSlideTable_Cell2 td,
+td#CafeF_StockSymbolSlideTable_Cell3 td,
+td#CafeF_StockSymbolSlideTable_Cell4 td,
+td#CafeF_StockSymbolSlideTable_Cell5 td,
+td#CafeF_StockSymbolSlideTable_Cell6 td
+{
+    border: none;
+}
+
+#CafeF_StockSymbolSlidePopup
+{
+    position: absolute; 
+    width: 260px; 
+    height: 300px;
+    z-index: 1000;
+    border: solid 1px #cf0d0e;
+    background-color: #ffffff;
+    display: none;
+    left: 500px;
+}
+#CafeF_StockSymbolSlidePopup .PopupRow
+{
+    overflow: auto;
+    margin: 2px 5px 2px 5px;
+}
+#CafeF_StockSymbolSlidePopupTitle
+{
+    float: left;
+    cursor: move;
+    color:#343434;
+    font-size:12px;
+}
+#CafeF_StockSymbolSlidePopupTitle div
+{
+    overflow: hidden;
+}
+#CafeF_StockSymbolSlidePopupList
+{
+    overflow: auto;
+    font-size: 11px;
+}
+#CafeF_StockSymbolSlidePopupList td
+{
+    font-size: 11px;
+}
+/* ************************************** */
+table.CafeF_RoundCornerBox
+{
+    text-align: left;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #fff;
+    border: none;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox tr.Top td.Left
+{
+    text-align: left;
+    width: 4px;
+    vertical-align: top;
+}
+table.CafeF_RoundCornerBox tr.Top td.Right
+{
+    text-align: right;
+    width: 4px;
+    vertical-align: top;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox tr.Bottom td.Left
+{
+    text-align: left;
+    width: 4px;
+    vertical-align: bottom;
+}
+table.CafeF_RoundCornerBox tr.Bottom td.Right
+{
+    text-align: right;
+    width: 4px;
+    vertical-align: bottom;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox td.Middle
+{
+    padding: 5px 5px 5px 5px;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox .Price
+{
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+table.CafeF_RoundCornerBox .Up
+{
+    color: #009933;
+    font-weight: normal;
+}
+table.CafeF_RoundCornerBox .Down
+{
+    color: #aa0000;
+    font-weight: normal;
+}
+table.CafeF_RoundCornerBox .NoChange
+{
+    color: #FF9900;
+    font-weight: normal;
+}
+table.CafeF_RoundCornerBox .Note
+{
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    font-weight: normal;
+}
+table.CafeF_RoundCornerBox .Title a,
+table.CafeF_RoundCornerBox .Title a:link,
+table.CafeF_RoundCornerBox .Title a:active,
+table.CafeF_RoundCornerBox .Title a:visited
+{
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+	text-decoration: none;
+}
+table.CafeF_RoundCornerBox .Title a:hover
+{
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* ************************************** */
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox
+{
+    width: 100%;
+    border: none;
+    background-color: #fff;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Top td.Title
+{
+    font-weight: bold;
+    border-top: solid 1px #dadada;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Top td.Left
+{
+    text-align: left;
+    vertical-align: top;
+    width: 9px;
+    vertical-align: top;
+    background-image: url(http://cafef3.vcmedia.vn/images/www/cafef/gray_dot.gif);
+    background-position: left;
+    background-repeat: repeat-y;
+}
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Top td.Right
+{
+    text-align: right;
+    vertical-align: top;
+    width: 9px;
+    vertical-align: top;
+    background-image: url(http://cafef3.vcmedia.vn/images/www/cafef/images/gray_dot.gif);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Bottom td.Center
+{
+    border-bottom: solid 1px #dadada;
+}
+
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Bottom td.Left
+{
+    text-align: left;
+    width: 9px;
+    vertical-align: bottom;
+    background-image: url(http://cafef3.vcmedia.vn/images/www/cafef/images/gray_dot.gif);
+    background-position: left;
+    background-repeat: repeat-y;
+}
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Bottom td.Right
+{
+    text-align: right;
+    width: 9px;
+    vertical-align: bottom;
+    background-image: url(http://cafef3.vcmedia.vn/images/www/cafef/images/gray_dot.gif);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+/* -------------------------------------- */
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Middle td.Left
+{
+    border-left: solid 1px #dadada;
+    border-top: solid 1px #dadada;
+}
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Middle td.Right
+{
+    border-right: solid 1px #dadada;
+    border-top: solid 1px #dadada;
+}
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Middle td.Center
+{
+    border-top: solid 1px #dadada;
+}
+table.CafeF_RoundCornerBox table.Cafef_RoundCornerChildBox tr.Middle td.Center_Border
+{
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+}
+/* ********************************************** */
+#CafeF_BangChungKhoanRutGon
+{
+    width: 100%;
+}
+#CafeF_BangChungKhoanRutGon #BriefStockTable
+{
+	width:100%;
+	height:300px;
+	border:0 solid #000;
+	font-size:0.9em;
+	overflow:auto;
+	margin-right:0;
+	float:left;
+	padding:0;
+}
+
+#CafeF_BangChungKhoanRutGon .indx_title
+{
+	font-size:18px;
+	font-family:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#3d3d3d;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .indx_btnon
+{
+	font-size:14px;
+	font-family:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#C9000F;
+	text-decoration:none;
+	letter-spacing:0;
+	background-image:url(http://cafef3.vcmedia.vn/images/www/cafef/images/StockImages/img_btnon1.gif);background-repeat:no-repeat
+}
+
+#CafeF_BangChungKhoanRutGon .indx_btnon a,#CafeF_BangChungKhoanRutGon .indx_btnon a:active,#CafeF_BangChungKhoanRutGon .indx_btnon a:visited,#CafeF_BangChungKhoanRutGon .indx_btnon a:link,#CafeF_BangChungKhoanRutGon .indx_btnon a:hover
+{
+	font-size:14px;
+	font-family:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:700;
+	color:#C9000F;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .indx_btnoff
+{
+	font-size:14px;
+	font-family:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#999;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .indx_mack
+{
+	font-size:14px;
+	font-family:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#666;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+ #CafeF_BangChungKhoanRutGon .style1
+{
+	font-size:14px;
+	font-family:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:700;
+	color:#999;
+	text-decoration:none;
+	letter-spacing:0;
+	background-image:url(http://cafef3.vcmedia.vn/images/www/cafef/images/StockImages/img_btnoff1.gif);background-repeat:no-repeat;
+}
+
+#CafeF_BangChungKhoanRutGon .style1 a,#CafeF_BangChungKhoanRutGon .style1 a:active,.style1 a:visited,.style1 a:link,.style1 a:hover
+{
+	font-size:14px;
+	font-family:Tahoma,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:700;
+	color:#999;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .content
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#004276;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .content a,#CafeF_BangChungKhoanRutGon .content a:link,#CafeF_BangChungKhoanRutGon .content a:active,#CafeF_BangChungKhoanRutGon .content a:visited
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#004276;
+	text-decoration:none;
+	letter-spacing:0;
+	padding:0;
+}
+#CafeF_BangChungKhoanRutGon .content a:hover
+{
+    font-size:12px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#cc0000;
+	text-decoration:none;
+	letter-spacing:0;
+	padding:0;
+}
+
+#CafeF_BangChungKhoanRutGon .green
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#093;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .red
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#f30;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .stc_nochange
+{
+	font-size:12px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#F90;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .gray
+{
+	font-size:11px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#787878;
+	text-decoration:none;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .grayunderline
+{
+	font-size:11px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#787878;
+	text-decoration:underline;
+	letter-spacing:0;
+}
+
+#CafeF_BangChungKhoanRutGon .style3
+{
+	font-size:11px;
+	font-family:Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular;
+	font-weight:normal;
+	color:#787878;
+	text-decoration:none;
+	letter-spacing:0;
+	font-style:italic;
+}
+
+#CafeF_BangChungKhoanRutGon .btn a:link
+{
+	color:blue;
+	text-decoration:none;
+}
+
+#CafeF_BangChungKhoanRutGon .btn a:visited
+{
+	color:purple;
+	text-decoration:none;
+}
+
+#CafeF_BangChungKhoanRutGon .btn a:active
+{
+	color:red;
+	text-decoration:none;
+}
+
+#CafeF_BangChungKhoanRutGon .btn a:hover
+{
+	color:#000;
+	text-decoration:none;
+	position:relative;
+	top:1px;
+	left:1px;
+}
+/* ---------------------------------------------------- */
+table.CafeF_BoxChungKhoan
+{ 
+    border: solid 1px #C8D9EA; 
+}
+table.CafeF_BoxChungKhoan td,
+table.CafeF_BoxChungKhoan th
+{
+    font-size: 8pt; 
+    font-family: Arial;
+}
+table.CafeF_BoxChungKhoan th
+{
+    font-weight: normal;
+    font-size: 7pt; 
+}
+table.CafeF_BoxChungKhoan th.Actived
+{
+    background-color: #ffffff;
+    cursor: hand;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 8pt; 
+}
+table.CafeF_BoxChungKhoan th.InActived
+{
+    background-color: #C8D9EA;
+    cursor: hand;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 8pt; 
+}
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content th
+{
+    background-color: #e2ebf4;
+}
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td
+{
+    text-align: center;
+    background-color: #e2ebf4;
+    font-size: 8pt;
+}
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td.Symbol
+{
+    text-align: center;
+    background-color: #e2ebf4;
+    font-weight: normal;
+}
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td.Symbol a,
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td.Symbol a:link,
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td.Symbol a:active,
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td.Symbol a:visited
+{
+    color:#000;
+    text-decoration:none;
+    font-size: 8pt;
+}
+table.CafeF_BoxChungKhoan td.CafeF_BoxChungKhoan_Content td.Symbol a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+    font-size: 8pt;
+}
+/* ---------------------------------------- */
+div#CafeF_DSCongtyNiemyet td
+{
+    font-size: 11px;
+    font-family: Arial;
+}
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai td
+{
+    text-align: center;
+    border: solid 1px #dadada;
+}
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a:link,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a:active,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a:visited
+{
+    color:#000;
+    text-decoration:none;
+    font-size: 12px;
+    font-weight: bold;
+}
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+    font-size: 12px;
+    font-weight: bold;
+}
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a.Actived,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a.Actived:link,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a.Actived:active,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a.Actived:visited,
+div.cf_BoxContent table.CafeF_ThiTruongNiemYet_ChuCai a.Actived:hover
+{
+	color:#CB0003;
+    text-decoration:none;
+    font-size: 12px;
+    font-weight: bold;
+}
+div#CafeF_DSCongtyNiemyet a.Actived,
+div#CafeF_DSCongtyNiemyet a.Actived:link,
+div#CafeF_DSCongtyNiemyet a.Actived:active,
+div#CafeF_DSCongtyNiemyet a.Actived:visited
+{
+    font-weight: bold;
+    color: #cc0000;
+    text-decoration: none;
+    font-size:12px;
+}
+div#CafeF_DSCongtyNiemyet a.Actived:hover
+{
+    font-weight: bold;
+    color: #cc0000;
+    text-decoration: none;
+    font-size:12px;
+}
+div#CafeF_DSCongtyNiemyet a.InActived,
+div#CafeF_DSCongtyNiemyet a.InActived:link,
+div#CafeF_DSCongtyNiemyet a.InActived:active,
+div#CafeF_DSCongtyNiemyet a.InActived:visited
+{
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    font-size:12px;
+}
+div#CafeF_DSCongtyNiemyet a.InActived:hover
+{
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    font-size:12px;
+}
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content th
+{
+    font-weight: bold;
+    background-color: #efefef;
+    text-align: left;
+}
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content td
+{
+    background-color: #fff;
+}
+
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content td.Alternation
+{
+    background-color: #f3f3f3;
+    border-top: solid 1px #e9e9e9;
+    border-bottom: solid 1px #e9e9e9;
+}
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content a,
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content a:link,
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content a:active,
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content a:visited
+{
+    color:#333;
+    text-decoration:none;
+    font-size: 11px;
+}
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Content a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+    font-size: 11px;
+}
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Trang a,
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Trang a:link,
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Trang a:active,
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Trang a:visited
+{
+    color:#000;
+    text-decoration:none;
+}
+div.cf_BoxContent td#CafeF_ThiTruongNiemYet_Trang a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+}
+/* --------------------------------------------------------- */
+#dhtmltooltip
+{
+	border: #666 2px solid;
+	padding: 5px;
+	font-size: 10pt;
+	z-index: 100;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	left: -300px; top:0px;
+	visibility: hidden;
+	font-family: Arial;
+	position: absolute;
+	background-color: lightyellow;
+	width: 600px;
+	height:300px;
+	text-align:left;
+}
+#dhtmlpointer
+{
+	z-index: 101;
+	left: -300px; top:0px;
+	visibility: hidden;
+	position: absolute;
+}
+/* ----------------------------------------------- */
+/*Box */
+/* common paddings top-bottom */
+.cf_Pad5TB9LR{padding:7px 9px;}
+/* enhanced box styles
+ ============================================================================================== */
+/* white corner box */
+.cf_WCBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_TR.gif) 100% 0 no-repeat;}
+.cf_WCBox .cf_BoxHeader div
+{width:4px;height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_TL.gif) 0 0 no-repeat ;float:left}
+.cf_WCBox .cf_BoxContent
+{background:#fff;}
+.cf_WCBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BR.gif) 100% 0 no-repeat;}
+.cf_WCBox .cf_BoxFooter div
+{height:4px;width:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BL.gif) 0 0 no-repeat;float:left}
+
+/* wire box */
+.cf_WireBox .cf_BoxContent
+{background:#fff;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.cf_WireBox .cf_BoxHeader
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_TR_bg.gif) 100% 0 repeat-x;}
+.cf_WireBox .cf_BoxHeader div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_TL.gif) 0 0 no-repeat;float:left}
+.cf_WireBox .cf_BoxFooter
+{height:4px;overflow:hidden;background:url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BR._bg.gif) 100% 0 no-repeat;}
+.cf_WireBox .cf_BoxFooter div
+{height:4px;width:4px;background:#fff url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BL.gif) 0 0 no-repeat;float:left}
+
+.cf_MBTop
+{border-bottom:1px solid #dfdfdf; padding:0px; margin:0px; position:relative;}
+.cf_MB .cf_MB88x31
+{position:absolute;top:1px;right:5px;}
+/* ----------------------------------------- */
+table.CafeF_TopCompany
+{
+    border: 1px solid #dadada;
+    font-size: 12px;
+    width: 100%;
+    background-color: #fff;
+    font-family: Arial;
+    color: #292929;
+}
+table.CafeF_TopCompany td.Button
+{
+    text-align: center;
+    height: 24px;
+    cursor: hand;
+    cursor: pointer;
+    font-size: 12px;
+}
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TangGia td,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_GiamGia td,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_KhoiLuong td,
+
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TopPE td,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TopEPS td,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TopCapital td
+{
+    text-align: right;
+    padding: 5px 4px 5px 4px;
+}
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TangGia th,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_GiamGia th,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_KhoiLuong th,
+
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TopPE th,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TopEPS th,
+table.CafeF_TopCompany div#CafeF_BoxChungKhoan_Tab_TopCapital th
+{
+    text-align: right;
+    color: #004276;
+    border-bottom: solid 1px #dadada;
+    background-color: #f5f5f5;
+    padding: 5px 4px 5px 4px;
+}
+table.CafeF_TopCompany a,
+table.CafeF_TopCompany a:link,
+table.CafeF_TopCompany a:active,
+table.CafeF_TopCompany a:visited
+{
+    color:#000;
+    text-decoration:none;
+    font-weight: normal;
+}
+table.CafeF_TopCompany a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+    font-weight: normal;
+}
+table.CafeF_TopCompany a.ButtonActived,
+table.CafeF_TopCompany a.ButtonActived:link,
+table.CafeF_TopCompany a.ButtonActived:active,
+table.CafeF_TopCompany a.ButtonActived:visited,
+table.CafeF_TopCompany a.ButtonActived:hover
+{
+    font-weight: bolder;
+    font-size: 11px;
+    color: #cc0000;
+}
+table.CafeF_TopCompany a.ButtonInActived,
+table.CafeF_TopCompany a.ButtonInActived:link,
+table.CafeF_TopCompany a.ButtonInActived:active,
+table.CafeF_TopCompany a.ButtonInActived:visited,
+table.CafeF_TopCompany a.ButtonInActived:hover
+{
+    font-weight: normal;
+    font-size: 11px;
+    color: #999999;
+}
+/* ------------------------------------ */
+table.Cafef_RelatedCompany
+{
+    border: none;
+    width: 100%;
+}
+table.Cafef_RelatedCompany img
+{
+    cursor: hand;
+    cursor: pointer;
+    border: none;
+    vertical-align: inherit;
+}
+table.Cafef_RelatedCompany td.Dulieu
+{
+    padding-top: 5px;
+    font-size: 11px;
+}
+table.Cafef_RelatedCompany td.Dulieu table
+{
+    border: 1px solid #dddddd;
+    width:100%;
+    background-color: #fff;
+}
+table.Cafef_RelatedCompany td.Dulieu table th
+{
+    background-color:#EFEFEF;
+}
+table.Cafef_RelatedCompany td.Dulieu table td
+{
+    text-align: right;
+}
+table.Cafef_RelatedCompany td.Dulieu table td.Symbol
+{
+    text-align: left;
+}
+table.Cafef_RelatedCompany td.Dulieu table td.Symbol a,
+table.Cafef_RelatedCompany td.Dulieu table td.Symbol a:link,
+table.Cafef_RelatedCompany td.Dulieu table td.Symbol a:active,
+table.Cafef_RelatedCompany td.Dulieu table td.Symbol a:visited
+{
+    color:#000;
+    text-decoration:none;
+    font-weight: normal;
+}
+table.Cafef_RelatedCompany td.Dulieu table td.Symbol a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+    font-weight: normal;
+}
+table.Cafef_RelatedCompany td.Dulieu table tr.Alternation td
+{
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #E9E9E9;
+    border-top: 1px solid #E9E9E9;
+}
+table.Cafef_RelatedCompany td.Phantrang
+{
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+table.Cafef_RelatedCompany td.Phantrang a,
+table.Cafef_RelatedCompany td.Phantrang a:link,
+table.Cafef_RelatedCompany td.Phantrang a:active,
+table.Cafef_RelatedCompany td.Phantrang a:visited
+{
+    color:#666666;
+    text-decoration:none;
+    font-weight: bold;
+}
+table.Cafef_RelatedCompany td.Phantrang a:hover
+{
+    color:#CB0003;
+    text-decoration:none;
+    font-weight: bold;
+}
+table.Cafef_RelatedCompany td.Ghichu
+{
+    padding-top: 5px;
+    font-size: 11px;
+    text-align: center;
+}
+.text_color_green
+{
+	color: #008000;
+}
+.text_color_red
+{
+	color: #cc0000;
+}
+.text_color_yellow
+{
+	color: #ff9900;
+}
+/* ======== Bai viet hay ================================= */
+#CafeF_BaiVietHay .title {FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:bold; color:#ce0002; text-decoration:0px; font-size:15px;}
+#CafeF_BaiVietHay a.content, a.content:link, a.content:active, a.content:visited{FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular; font-weight:normal ; color:#014373; text-decoration:none; font-size:12px;}
+#CafeF_BaiVietHay a.content:hover {FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular; font-weight:normal ; color:#ce0002; text-decoration:0px; font-size:12px;}
+#CafeF_BaiVietHay .content1 {FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular; font-weight:normal ; color:#9b9b9b; text-decoration:0px; font-size:11px;}
+#CafeF_BaiVietHay .tentacgia {FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular; font-weight:normal ; color:#343434; text-decoration:0px; font-size:11px;}
+
+
+#CafeF_TygiaNgoaite a,
+#CafeF_TygiaNgoaite a:link,
+#CafeF_TygiaNgoaite a:active,
+#CafeF_TygiaNgoaite a:visited
+{
+	font-family: Arial;
+    color:#666666;
+    text-decoration:none;
+    font-size: 12px;
+}
+#CafeF_TygiaNgoaite a:hover
+{
+	font-family: Arial;
+    color:#CB0003;
+    text-decoration:none;
+    font-size: 12px;
+}
+
+/* ======== Box Gia hang hoa nguyen lieu ================================= */
+#CafeF_BoxHangHoaNguyenLieu{font-family:Arial;font-size:12px;}
+#CafeF_BoxHangHoaNguyenLieu .Title{font-weight:700;font-size:17px;text-align:left;}
+#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_NongSan,#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_KimLoai{padding-top:10px;padding-bottom:10px;}
+#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_NongSan table,#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_KimLoai table{border:none;background-color:#dfdfdf;width:100%;text-align:right;}
+#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_NongSan table th,#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_KimLoai table th{color:#004485;border-left:solid 1px #fff;text-align:center;background-color:#f3f3f3;padding:3px 5px;}
+#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_NongSan table th.Name,#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_KimLoai table th.Name{width:150px;text-align:left;}
+#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_NongSan table td,#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_KimLoai table td{border-left:solid 1px #fff;background-color:#f3f3f3;padding:3px 5px;}
+#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_NongSan table td.Name,#CafeF_BoxHangHoaNguyenLieu #CafeF_HangHoaNguyenLieu_KimLoai table td.Name{text-align:left;}
+/*tra cuu lich su */
+.cf_ResearchDataHistoryInfo
+{
+	
+	width:100%;
+	padding-top:10px;padding-left:0px;float:left;
+	border-bottom:solid 0px #dadada;
+	background-color:#BA2020
+}
+.cf_ResearchDataHistory_Tab1
+{
+	width: 85px; height: 30px; float: left; background-color: #fff;
+	border-bottom: solid 1px #D6D6D8;text-align:center;
+}
+.cf_ResearchDataHistory_Tab1 .ResearchDataHistory_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/OTC/tab1.gif) 100% 0 no-repeat;}
+.cf_ResearchDataHistory_Tab1 .ResearchDataHistory_BoxContent
+{
+	background:#fff;
+	border-left:solid 1px #D6D6D8;
+	border-right:solid 1px #D6D6D8;
+	text-align: center;
+    vertical-align: top; 
+    height:26px;
+    vertical-align:middle;
+}
+.cf_ResearchDataHistory_Tab1_Sel
+{
+	width: 85px; height: 30px; float: left; background-color: #fff;
+	border-bottom: solid 1px #E1E1E1;text-align:center;
+}
+.cf_ResearchDataHistory_Tab1_Sel .ResearchDataHistory_BoxHeader
+{height:4px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/OTC/tab1.gif) 100% 0 no-repeat;}
+.cf_ResearchDataHistory_Tab1_Sel .ResearchDataHistory_BoxContent
+{
+	background:#E1E1E1;
+	border-left:solid 1px #D6D6D8;
+	border-right:solid 1px #D6D6D8;
+	text-align: center;
+    vertical-align: top; 
+    height:26px;
+    vertical-align:middle;
+}
+
+.cf_ResearchDataHistory
+{
+	width: 185px; height: 30px; float: left; background-color: #fff;
+	border-bottom: solid 1px #D6D6D8;text-align:center;
+}
+.cf_ResearchDataHistory_Selected
+{
+	width: 185px; height: 30px; float: left; background-color: #E1E1E1;
+	border-bottom: solid 1px #E1E1E1;text-align:center;
+}
+/*HungTP*/
+.cf_ThongKeDatLenh
+{
+	width: 135px; height: 30px; float: left; background-color: #fff;
+	border-bottom: solid 1px #D6D6D8;text-align:center;
+}
+.cf_ThongKeDatLenh_Selected
+{
+	width: 135px; height: 30px; float: left; background-color: #E1E1E1;
+	border-bottom: solid 1px #E1E1E1;text-align:center;
+}
+
+.cf_ThongKeDatLenh .ResearchDataHistory_BoxHeader, .cf_ThongKeDatLenh_Selected .ResearchDataHistory_BoxHeader
+{height:5px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/OTC/top_135.gif) 100% 0 no-repeat;}
+/*END*/
+
+.cf_ResearchDataHistory_Selected .ResearchDataHistory_BoxHeader,
+.cf_ResearchDataHistory .ResearchDataHistory_BoxHeader
+{height:5px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/OTC/top_185.gif) 100% 0 no-repeat;}
+
+.cf_Codonglon .ResearchDataHistory_BoxHeader, .cf_Codonglon_Selected .ResearchDataHistory_BoxHeader
+{height:5px;overflow:hidden;background:#fff url(http://cafef3.vcmedia.vn/images/OTC/top_270.gif) 100% 0 no-repeat;}
+
+.cf_ResearchDataHistory_Selected .ResearchDataHistory_BoxContent
+{
+	background:#E1E1E1;
+	border-left:solid 1px #D6D6D8;
+	border-right:solid 1px #D6D6D8;
+	text-align: center;
+    vertical-align: top; 
+    height:26px;
+    vertical-align:middle;
+}
+.cf_ResearchDataHistory .ResearchDataHistory_BoxContent
+{
+	background:#fff;
+	border-left:solid 1px #D6D6D8;
+	border-right:solid 1px #D6D6D8;
+	text-align: center;
+    vertical-align: top; 
+    height:26px;
+    vertical-align:middle;
+}
+
+/* Tra cuu lich su giao dich table*/
+.Header_DateItem
+{
+	text-align: center; border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;
+                        vertical-align:middle;width:90px;font-size:12px;border-left:solid 1px #dadada
+}
+.Item_DateItem
+{
+	text-align: center; border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;
+                        vertical-align:middle;width:90px;font-size:11px;border-left:solid 1px #dadada
+}
+.Header_ChangeItem
+{
+	text-align: center; border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;vertical-align: middle;font-size:12px;
+}
+.Header_Price
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;width:85px;font-size:12px;text-align: center;
+}
+.Header_Price1
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:12px;text-align: center;
+}
+.Header_Price3
+{
+	border-right: solid 3px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:12px;text-align: center;
+}
+.Item_Price
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;width:85px;font-size:11px;text-align: right;
+}
+
+.Item_Price1
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:11px;text-align: right;
+}
+
+.Item_Price3
+{
+	border-right: solid 3px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:11px;text-align: right;
+}
+
+.Header_LastItem
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:12px;text-align: center;width:90px
+}
+.LastItem_Price
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:11px;text-align: right;;width:90px
+}
+.Item_ChangePrice
+{
+	border-right: none; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:11px;text-align: right;width:80px
+}
+.Item_Image
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;width:15px;font-size:11px;text-align: center;
+}
+.SearchDataHistory_SearchForm
+{
+	font-family:Arial;font-size:12px;font-weight:bold;
+	padding: 10px 10px 10px 10px;
+	
+}
+.btn_Search_Selected
+{
+	border:none;
+	background-color:#FFF;
+	font-family:Arial;font-size:12px;font-weight:bold;color:Red;
+	cursor:pointer;
+}
+.btn_Search_Normal
+{
+	border:none;
+	background-color:#FFF;
+	font-family:Arial;font-size:12px;font-weight:bold;color:#000;
+	cursor:pointer;
+}
+.GDNN_Header
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;width:190px;font-size:12px;text-align: center;
+}
+.gdnoibo_div1
+{
+	float: left; width: 100%; background-color: #E1E1E1; height: auto; color: #fff;
+    font-family: arial; font-size: 11px; font-weight: bold; padding-top: 5px; padding-bottom: 5px;
+    padding-left: 0px
+}
+.HeaderTR
+{
+	border-bottom: solid 1px #e6e6e6; font-family: Arial; font-size: 12px;
+                    font-weight: bold; color: #004276;
+}
+.ItemTD1
+{
+	font-family:Arial;font-size:12px;
+	text-align: center; border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;
+                        vertical-align: top
+}
+.ItemTD2
+{
+	text-align: center; border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;
+                        vertical-align: top; width: 150px
+}
+.ItemTD3
+{
+	border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;
+                        vertical-align: top
+}
+.ItemTD4
+{
+	text-align: center; border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6;
+                        width: 80px
+}
+.gdnoiboNormalItem
+{
+	font-family: Arial; font-size: 11px; font-weight: normal; background-color: #f2f2f2;
+}
+.gdnoiboTable
+{
+	border-top: solid 1px #e6e6e6;border-left:solid 1px #e6e6e6;border-right: solid 1px #e6e6e6
+}
+/*DivMenu*/
+.menu_div1
+{
+	overflow:hidden;background-color:White;border:solid 1px #dadada;height:30px;
+}
+.menu_div1 .div1_1
+{
+	width:600px;float:left;
+}
+.menu_div1 .div1_2
+{
+	float:right;padding-top:4px;padding-right:5px;border:none;
+}
+.menu_div2
+{
+	background-image:url('http://cafef3.vcmedia.vn/images/images/bgRed.jpg');background-repeat:repeat-x;height:10px;
+}
+/*Footer*/
+.footer_div1
+{
+	float:left;padding:20px;width:800px;
+}
+.footer_div2
+{
+	float:right;width:70px;padding-top:10px;
+}
+/*Home */
+.home_div1
+{
+	overflow: hidden; width: 980px;
+}
+.home_div1 div
+{
+	overflow: hidden;
+}
+
+.home_div1_1
+{
+	width: 621px; float: left;
+}
+.home_adv_div
+{
+	padding-top:8px;
+}
+.home_category
+{
+	float: left; padding-left:8px;padding-top: 8px;
+}
+.home_div1_2
+{
+	overflow: hidden; float: left; width: 350px; padding-left: 8px;
+}
+.home_div1_2_1
+{
+	width:350px;padding-top:8px;
+}
+#CafeF_EmbedDataRequest
+{
+	width: 100%; height: 477px;
+}
+.home_goldPrice_div1
+{
+	overflow: hidden; background-color: #f2f2f2; height: 20px; padding-top: 4px;
+	color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;background-color: #F2F2F2;height: 25px;
+}
+.home_goldPrice_div1 .home_goldPrice_div1_1
+{
+	float: left; width: 100px; text-align: left; padding-left: 10px;
+}
+.home_goldPrice_div1 .home_goldPrice_div1_2
+{
+	float: left; width: 55px;
+}
+.home_goldPrice_div2
+{
+	overflow: hidden; height: 20px; padding-top: 5px;
+}
+.home_goldPrice_div3
+{
+	overflow: hidden; background-color: #fff9e1; height: 20px; padding-top: 5px
+}
+.home_goldPrice_div4
+{
+	border-top: solid 1px #dadada; padding: 2px 5px 2px 5px;
+}
+.cf_grd_ColumnHeader{color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;height: 20px;float:left;}
+.home_tygia_header1
+{
+	color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;height: 20px;float:left;
+	padding-left: 10px; text-align: left; width: 30px;
+}
+.home_tygia_header2
+{
+	color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;height: 20px;float:left;
+	text-align: right; width: 60px;
+}
+.home_tygia_header_div1
+{
+	overflow: hidden; background-color: #F2F2F2; padding-top: 5px;
+}
+.home_tygia_rpt_item
+{
+	overflow: hidden; padding-top: 5px;
+}
+.home_tygia_rpt_item_number
+{
+	color: #343434;font-family: Arial;font-size: 12px;text-align:right;padding-left:5px;height: 20px;float:left;width:55px	
+}
+.home_tygia_rpt_item_text
+{
+	color:#333333;font-family: Arial;font-size: 12px;font-weight: bold;	height: 20px;
+	float: left; padding-left: 10px; width: 30px;
+}
+.home_tygia_rpt_item_number_last
+{
+	color: #343434;font-family: Arial;font-size: 12px;text-align:right;padding-left:5px;height: 20px;float:left;
+}
+.home_tygia_rpt_item_alt
+{
+	overflow: hidden; background-color: #f2f2f2; height: 20px; padding-top: 5px;
+}
+.cf_WCBox #CafeF_TygiaNgoaite_Popup_Container
+{
+	z-index: 1000;position: absolute; width: 242px; display: none;
+}
+.home_tygia_pop_div1
+{
+	padding: 0px 10px 9px 8px;
+}
+.home_tygia_pop_div1_1
+{
+	width: 220px; background: transparent url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BR._bg.gif) no-repeat scroll 100% 0;
+                                                height: 4px; overflow: hidden;
+}
+home_tygia_pop_div1_1_1{
+	background: #FFFFFF url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_wire_BL.gif) no-repeat scroll 0 0;
+                                                    float: left; height: 4px; width: 4px;
+}
+.home_tygia_pop_div1_2
+{
+background: #FFFFFF url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BR.gif) no-repeat scroll 100% 0;
+                                    height: 4px; overflow: hidden;
+}
+.home_tygia_pop_div1_2_1
+{
+background: #FFFFFF url(http://cafef3.vcmedia.vn/images/Box_Tin_Doanh_Nghiep/corner_dg_BL.gif) no-repeat scroll 0 0;
+                                        float: left; height: 4px; overflow: hidden; width: 4px;
+}
+.cf_Box_BorderTop .div1
+{
+	text-align: right; padding: 3px 5px 0px 0px;
+}
+
+.td1
+{
+	background-image: url(http://cafef3.vcmedia.vn/images/BaiVietHay/img_back.gif);
+	text-decoration: none;FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#333333; text-decoration:0px; font-size:20px;
+}
+.home_ykienchuyengia_td2
+{
+	text-align: right; padding-right: 10px; padding-top: 5px;background-color:#FFF;
+}
+.a1
+{
+	text-decoration: none;FONT-FAMILY:Arial,Helvetica,Tahoma,Verdana,Times New Roman,SunSans-Regular;line-height:130%; font-weight:normal; color:#333333; text-decoration:0px; 
+	font-size: 11px; font-weight: normal;
+}
+.home_hostnews_div1
+{
+	padding-top:10px;padding-left:5px
+}
+.home_hostnews_div2
+{
+	padding-top:10px;text-align:left;padding-left:5px;
+}
+.home_hostnews_datalist_div1
+{
+	overflow:hidden;text-align:left;
+}
+.home_hostnews_datalist_div1_1
+{
+	float:left;width:270px;padding-top:5px;
+}
+.home_laixuatnh_div1
+{
+	padding-left: 5px; padding-bottom: 5px; font-size: 13px
+}
+.home_laixuatnh_div2
+{
+	padding: 0px 5px 2px 5px; text-align: left;	
+}
+.home_laixuatnh_span1
+{
+	text-align: left;font-style:normal;font-weight:normal;
+	font-family: Arial;
+	font-size: 11px;
+	color: #919191;
+	font-style: italic;
+	padding-right:5px;
+}
+
+.home_laixuatnh_div3
+{
+	overflow: hidden; background-color: #F2F2F2; height: 30px; padding-top: 3px;
+                                border-bottom: solid 1px #e6e6e6;
+}
+/* Lai xuat ngan hang */
+.LaiXuat_tab{color: #023D79;font-family: Arial;font-size: 12px;font-weight: normal;background-color: #f2f3f7;height: 45px;}
+.home_laixuatnh_div3_1
+{
+	color: #004370;font-family: Arial;font-size: 12px;background-color: #F2F2F2;height: 45px;
+	float: left; width: 92px; text-align: left; padding-left: 10px; font-weight: normal;padding-top: 5px;
+}
+.home_laixuatnh_div3_2
+{
+	float: left; width: 1px; background-color: #F2F2F2; height: 35px;
+}
+.home_laixuatnh_div3_3
+{
+	float: left; width: 55px; font-weight: normal; padding-top: 3px;
+	color: #004370;font-family: Arial;font-size: 12px;background-color: #F2F2F2;height: 45px;
+}
+.home_laixuatnh_div3_4,.home_laixuatnh_div3_4 a
+{
+	padding: 5px 5px 2px 5px; overflow: hidden; text-align: left;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	color:#004276;
+		
+}
+.home_comment_div1
+{
+	border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;
+	float: left; width: 220px; border-left: solid 1px #dadada;border-bottom:none;
+}
+.Box_Comment_Active
+{
+	float: left;border-right:solid 1px #dadada;width:109px;padding-bottom:5px;
+}
+.Box_Comment_Active a,
+.Box_Comment_Active a:link,
+.Box_Comment_Active a:active,
+.Box_Comment_Active a:visited
+{
+	font-family: Tahoma,Arial;
+	text-transform:uppercase;
+	font-size: 11px;
+	color:#cb2020;
+	text-align: left;
+	font-weight: bold;
+	text-decoration:none;
+	font-style:normal;
+	text-align:left;
+	padding-left:10px;
+}
+.Box_Comment_Active a:hover
+{
+	font-family: Tahoma,Arial;
+	text-transform:uppercase;
+	font-size: 11px;
+	color:#cb2020;
+	text-align: left;
+	font-weight: bold;
+	text-decoration:none;
+	font-style:normal;
+	text-align:left;
+	padding-left:10px;
+}
+.Box_Comment_Inactive
+{
+	float: left;padding-bottom:5px;
+}
+.Box_Comment_Inactive a,
+.Box_Comment_Inactive a:link,
+.Box_Comment_Inactive a:active,
+.Box_Comment_Inactive a:visited
+{
+	font-family: Tahoma,Arial;
+	text-transform:uppercase;
+	font-size: 11px;
+	color:#000;
+	text-align: left;
+	font-weight: bold;
+	text-decoration:none;
+	font-style:normal;
+	text-align:left;
+	padding-left:10px;
+}
+.Box_Comment_Inactive a:hover
+{
+	font-family: Tahoma,Arial;
+	text-transform:uppercase;
+	font-size: 11px;
+	color:#cb2020;
+	text-align: left;
+	font-weight: bold;
+	text-decoration:none;
+	font-style:normal;
+	text-align:left;
+	padding-left:10px;
+}
+.home_comment_topview_td1
+{
+	vertical-align: middle; padding: 3px 0px 0px 5px;border-bottom:solid 1px #f2f2f2;font-family:Tahoma;font-size:14px;color:#7a7a7a;text-align:center;
+}
+.home_comment_topview_td2
+{
+	height:25px;border-bottom:solid 1px #f2f2f2
+}
+.home_category_div1
+{
+	padding-top:6px;padding-left:12px;padding-right :12px
+}
+.home_category_span1
+{
+	width:12px;cursor:pointer;height:12px;background-image:url('http://cafef3.vcmedia.vn/images/images/more1.jpg"/')
+}
+.home_giavang_div1
+{
+	border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-bottom:solid 1px #ccccccs;
+}
+.home_giavang_div2
+{
+	width:220px;border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-top:solid 1px #cccccc
+}
+.home_giavang_rpt_header_div1
+{
+	overflow:hidden;background-color:#f2f2f2;height:20px;padding-top:4px;
+}
+.home_giavang_rpt_header_div1_1
+{
+	float:left;width:100px;text-align:left;padding-left:5px;
+	color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;background-color: #F2F2F2;height: 25px;
+}
+.giavang_subtitle{color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;background-color: #F2F2F2;height: 25px;}
+.home_giavang_rpt_header_div1_2
+{
+	float:left;width:55px;color: #023D79;font-family: Arial;font-size: 13px;font-weight: bold;background-color: #F2F2F2;height: 25px;
+}
+.home_giavang_rpt_header_div2
+{
+	overflow:hidden;height:20px;padding-top:5px
+}
+.home_giavang_rpt_header_div3
+{
+overflow:hidden;background-color:#fff9e1;height:20px;padding-top:5px;
+}
+.home_filedownload_td1
+{
+	background-image: url(http://cafef3.vcmedia.vn/images/cafef-tools/filedownload/bkg.gif); padding-top: 0px;
+}
+.home_filedownload_td2
+{
+	background-image:url("http://cafef3.vcmedia.vn/images/cafef-tools/filedownload/line_red.gif");
+}
+.home_filedownload_td3
+{
+	padding: 5px 0px 6px 5px; width: 10px
+}
+.home_filedownload_td4
+{
+	padding: 0px 0px 6px 4px; text-align: left; width: 229px;
+}
+/*chi tiet thong tin cong ty */
+a.Chart_InActived,
+a.Chart_InActived:link,
+a.Chart_InActived:active,
+a.Chart_InActived:visited
+{
+	font-weight:normal;
+	font-size: 11px;
+	color: #013567;
+	font-family:Arial;
+	text-decoration: none;
+}
+a.Chart_InActived:hover
+{
+	font-weight:normal;
+	font-size: 11px;
+	color: #cc0001;
+	font-family:Arial;
+	text-decoration: none;
+}
+a.Chart_Actived,
+a.Chart_Actived:link,
+a.Chart_Actived:active,
+a.Chart_Actived:visited,
+a.Chart_Actived:hover
+{
+	font-weight:bold;
+	font-size: 11px;
+	color: #cc0001;
+	font-family:Arial;
+	text-decoration: none;
+}
+#tblCacChiSo
+{
+	border-bottom:solid 2px #dadada;
+}
+#tblCacChiSo .cacchiso_td1
+{
+	background-color: #F8F8FA; text-align: center; width: 165px; vertical-align: top; width: 155px;border-right:solid 1px #dadada
+}
+.cacchiso_td1_div1
+{
+	padding: 10px 10px 10px 10px; font-size: 11px; color: #003366
+}
+.cacchiso_td1_div2
+{
+	margin-top: 30px; color:#000000;font-size:36px;font-weight:bold;
+}
+.cacchiso_td1_div3
+{
+	margin-top: 10px; font-weight: bold;
+}
+.cacchiso_td1_div4
+{
+	margin-top: 10px; font-size: 9px; color: #cccccc; white-space: nowrap;
+}
+#tblCacChiSo .cachiso_td2
+{
+	border-left: solid 1px #dadada; border-right: solid 1px #dadada;font-size: 12px; color: #003366; width: 180px;
+}
+.cacchiso_td2_1{
+	text-align:left; font-weight: bold; font-size: 12px;color:#003366
+}
+.cacchiso_td2_2{
+	font-size: 15px; color: #cc0000;text-align:right; font-weight: bold;
+}
+.dxncItemHeader_crawler
+{	
+	color: #004370;	
+	line-height: 17px;
+	text-align:left;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+.dxncItemHeader_crawler a:link,
+.dxncItemHeader_crawler a:visited,
+.dxncItemHeader_crawler a:active
+{	
+	color: #004370;
+	text-decoration: none;
+	padding-left:0px;	
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+	
+}
+.dxncItemHeader_crawler a:hover
+{
+	color: #cb0003;
+	text-decoration: none;
+	padding-left:0px;	
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:0px 0px 0px 0px;
+}
+.green {font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: bold; color: #009933; TEXT-DECORATION: none; letter-spacing: 0px; }
+.red{font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: bold; color: #ff3300; TEXT-DECORATION: none; letter-spacing: 0px; }
+.stc_nochange
+{
+  font-size: 12px; FONT-FAMILY: Arial,Helvetica,Arial,Verdana,Times New Roman,SunSans-Regular; font-weight: bold; color: #FF9900; TEXT-DECORATION: none; letter-spacing: 0px;   
+}
+td {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color:#343434;
+}
+/*header */
+.header_Div1
+{
+		overflow:hidden;
+		padding-left:10px;
+		background-color:White;
+		padding-top: 5px; 
+		height:auto;
+		padding-bottom:5px;
+		background-color:#fff;
+}
+.header_Div5
+{
+	overflow:hidden;	
+	float:right;width:728px;
+	background-color:#fff;
+}
+.header_Div2{width:990px;float:left;overflow:hidden;background-color:#fff;}
+.partner_table
+{
+	background-color: #ffffff; margin-top: 8px; margin-bottom: 8px;
+}
+.partner_tr1
+{
+	background-image: url(http://cafef3.vcmedia.vn/Partner/images/box_doi_tac_04.gif);
+}
+.partner_a
+{
+	padding:0px 0px 0px 0px;
+}
+.partner_tr2
+{
+	background-image: url(http://cafef3.vcmedia.vn/Partner/images/box_doi_tac_15.gif);
+}
+.master_div1
+{
+	background-color:#fff;
+	width:100%;
+}
+.master_div2
+{
+	padding-bottom: 5px;
+}
+.master_div21
+{
+	width:978px;text-align:left;
+}
+
+/*Bang gia rut gon*/
+.bgrg_td1
+{
+	padding: 0px 0px 0px 6px;
+}
+
+.hotNew3Other{width:620px; float:left; overflow:hidden; border-top:solid 1px #dadada; background-color:White}
+.hotNew3OtherC {width:195px; float:left; overflow:hidden; text-align:left; padding-left:5px}
+
+.babainoibat{margin:0 0 8px;padding:10px; width:600px; background-color:#cacaca}
+.babainoibat ul{}
+.babainoibat ul li{display:inline}
+.babainoibat ul li a {font-family:Tahoma, Arial;font-size: 12px;color:#004370;text-align: left;font-weight: bold;text-decoration:none;font-style:normal}
+.babainoibat ul li a:hover {font-family:Tahoma, Arial;font-size: 12px;color:#cc0001;text-align: left;font-weight: bold;text-decoration:none;font-style:normal}
+.babainoibat ul li img{float:left;margin:0 5px 5px 0;width:104px; border:1px solid #989898}
+
+.cf_Codonglon_Selected
+{
+	width: 270px; height: 30px; float: left; background-color: #E1E1E1;border-bottom: solid 1px #E1E1E1;text-align:center;
+}
+.cf_Codonglon
+{
+width: 270px; height: 30px; float: left; background-color: #fff;border-bottom: solid 1px #D6D6D8;text-align:center;
+}
+
+/* tiennv sua 02-06-2010 */
+
+ul.tindoanhnghiepLink
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 5px 10px 5px 10px;
+    padding: 0px 0px 0px 0px;
+}
+ul.tindoanhnghiepLink li
+{ 
+    background:transparent url(http://cafef3.vcmedia.vn/images/images/top_6px_dot.gif) no-repeat scroll 5px !important;
+    margin:0px 0px 5px 3px;
+    padding:5px 0px 0px 15px;
+    font-size: 11px;
+    color: #B2B2B2;
+}
+ul.tindoanhnghiepLink li a,
+ul.tindoanhnghiepLink li a:link,
+ul.tindoanhnghiepLink li a:active,
+ul.tindoanhnghiepLink li a:visited
+{
+	color:#004370;
+	font-size: 12px;
+    text-decoration:none;
+    font-weight:normal;
+}
+ul.tindoanhnghiepLink li a:hover
+{
+	color:#CC0000;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+.aNext {font-weight:bold; font-family:Tahoma; font-size:9px; color:#004370;}
+.aNext:hover{font-weight:bold; font-family:Tahoma; font-size:9px; color:red;}
+.aPre {font-weight:bold; font-family:Tahoma; font-size:9px; color:#004370;}
+.aPre:hover{font-weight:bold; font-family:Tahoma; font-size:9px; color:red;}
+
+.Item_Price10
+{
+border-right: solid 1px #e6e6e6; border-bottom: solid 1px #e6e6e6; vertical-align: middle ;font-size:11px;text-align: right;white-space:nowrap;
+}
